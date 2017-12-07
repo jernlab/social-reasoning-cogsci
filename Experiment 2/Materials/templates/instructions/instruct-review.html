@@ -1,0 +1,95 @@
+<div id="container-instructions">
+
+	<h1>Instructions</h1>
+
+	<hr />
+
+	<div class="instructions well">
+	  <p>
+            A group of researchers have conducted a study to see how people with different relationships make choices that affect each other. The study involved pairs of people who were either friends or enemies. Each pair of people played a game in which each player made a choice that resulted in each player getting a payout.
+	  </p>
+	  <p>
+	    In the game, each player has two options, and the payouts are based on the options both players choose. Both players know the full table of payouts before choosing. One player chooses first, and the other chooses second. <b>The first player does not know what the second player will choose. However, the second player does know the first player's choice.</b>
+	  </p>
+	  <p>
+	    On the following screens, you will see the choices that the pairs of people made. Your task will be to make a guess about whether the pairs are friends or enemies, based on the choices they made.
+	  </p>
+	  <p>
+            For example, suppose the two players are Olivia and Todd. One possible payout table is shown below. Olivia's payouts are shown in <span style="color:#C55A11">orange</span>. Todd's payouts are shown in <span style="color:#4472C4">blue</span>. In this example, Olivia chose first and chose option <span style="color:#C55A11">A</span>. Her choice is highlighted in yellow.
+	  </p>
+	  <p>
+	    <table class="tg">
+	      <tr>
+		<th class="tg-baqh"></th>
+		<th class="tg-baqh"></th>
+		<th class="tg-sysp" colspan="2">Todd</th>
+	      </tr>
+	      <tr>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh"></td>
+		<td class="tg-sysp">A</td>
+		<td class="tg-sysp">B</td>
+	      </tr>
+	      <tr>
+		<td class="tg-zaau" rowspan="2">Olivia</td>
+		<td class="tg-zaau">A</td>
+		<td class="tg-baqh" colspan="2" rowspan="2"><img src="../static/game_images/pd1_h.PNG"></td>
+	      </tr>
+	      <tr>
+		<td class="tg-zaau">B</td>
+	      </tr>
+	    </table>
+	  </p>
+	  <br />
+	  <br />
+	  <p>
+	    Todd chose second and chose option <span style="color:#4472C4">B</span>. This table shows the final outcome: Olivia receives $0 and Todd receives $12. This outcome is highlighted in yellow.
+	  </p>
+	  <p>
+	    <table class="tg">
+	      <tr>
+		<th class="tg-baqh"></th>
+		<th class="tg-baqh"></th>
+		<th class="tg-sysp" colspan="2">Todd</th>
+	      </tr>
+	      <tr>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh"></td>
+		<td class="tg-sysp">A</td>
+		<td class="tg-sysp">B</td>
+	      </tr>
+	      <tr>
+		<td class="tg-zaau" rowspan="2">Olivia</td>
+		<td class="tg-zaau">A</td>
+		<td class="tg-baqh" colspan="2" rowspan="2"><img src="../static/game_images/pd1.PNG"></td>
+	      </tr>
+	      <tr>
+		<td class="tg-zaau">B</td>
+	      </tr>
+	    </table>
+	  </p>
+
+	    <script type="text/javascript">
+	    //console.log(psiTurk.getInstructionIndicator())
+	    </script>
+	</div>
+
+	<hr />
+
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+            	<!-- no previous button on first screen -->
+            </div>
+            <div class="col-xs-8">
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue" style="float:right">
+                Return to previous screen <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
