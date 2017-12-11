@@ -83,7 +83,7 @@
 							    </div>
 							    <p>
 								    Otherwise, please click the "Accept HIT" button on the Amazon site 
-								    above or below to begin the task.
+								    below to begin the task.
 								</p>
 							    
 
@@ -98,7 +98,7 @@
 									window pointed at your server.
 
 									It is important you do not change the code for the
-									openwindow() function below if you want your experiment
+									openwindow() function below if you want you experiment
 									to work.
 								-->
 							    <h1>Thank you for accepting this HIT!</h1>

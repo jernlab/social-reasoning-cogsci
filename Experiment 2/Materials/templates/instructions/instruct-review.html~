@@ -4,7 +4,7 @@
 
 	<hr />
 
-	<div id="first" class="instructions well">
+	<div class="instructions well">
 	  <p>
             A group of researchers have conducted a study to see how people with different relationships make choices that affect each other. The study involved pairs of people who were either friends or enemies. Each pair of people played a game in which each player made a choice that resulted in each player getting a payout.
 	  </p>
@@ -43,7 +43,7 @@
 	  <br />
 	  <br />
 	  <p>
-	    Todd chose second and chose option <span style="color:#4472C4">B</span>. This table shows the final outcome: Olivia received $0 and Todd received $12. This outcome is highlighted in yellow.
+	    Todd chose second and chose option <span style="color:#4472C4">B</span>. This table shows the final outcome: Olivia receives $0 and Todd receives $12. This outcome is highlighted in yellow.
 	  </p>
 	  <p>
 	    <table class="tg">
@@ -85,8 +85,8 @@
             <div class="col-xs-8">
             </div>
             <div class="col-xs-2">
-                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
-                Next <span class="glyphicon glyphicon-arrow-right"></span>
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue" style="float:right">
+                Return to previous screen <span class="glyphicon glyphicon-arrow-right"></span>
                 </button>
             </div>
         </div>
