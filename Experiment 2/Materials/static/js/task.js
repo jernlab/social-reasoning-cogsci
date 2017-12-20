@@ -46,15 +46,15 @@ var returnInstructions = [ // add as a list as many pages as you like
 var InteractionsExperiment = function() {
     debug = 0;
 
-    var wordon, // time word is presented
+    var wordon, // time trial is presented
 	listening = false;
     var rt;
 
     var availableNames = _.shuffle(['Jacob', 'David', 'Luke', 'Rebecca', 'Matt', 'Jack', 'Frank', 'Geoff', 'Robert', 'Emily', 'Zoe', 'Maria', 'Austin', 'Hannah', "Matthew", 'Gavin', 'William', "Logan", 'Ryan', 'Sydney', 'Lauren', 'Kate', 'Megan', 'Kaylee', 'Olivia', 'Daniel', 'Richmond', 'Gerald', 'Sally']);
 
     var attentionGame = {gameString:"attentionGame", game:[[8, 8],[12, 0],[0, 12],[4,4]], choices:_.shuffle([1])}       // ???
-    var pd = {gameString:"pd", game:[[8, 8],[0, 12],[12, 0],[4,4]], choices:_.shuffle([0, 1, 3])}                       // 0 1 3
-    var threat = {gameString:"threat", game:[[12, 6],[6, 12],[6, 0],[0,6]], choices:_.shuffle([ 0, 1, 2, 3])}           //  0 1 2 3
+    var pd = {gameString:"pd", game:[[8, 8],[0, 12],[12, 0],[4,4]], choices:_.shuffle([0, 3])}                       // 0 3
+    var threat = {gameString:"threat", game:[[12, 6],[6, 12],[6, 0],[0,6]], choices:_.shuffle([ 0, 1, 3])}           //  0 1 3
     var disjunctive = {gameString:"disjunctive", game:[[12,12], [12,12], [12,12], [0,0]], choices:_.shuffle([0, 3])}    //  0 3
     var coordination = {gameString:"coordination", game:[[12,12], [0,0], [0,0], [12,12]], choices:_.shuffle([ 0, 1])}   //  0 1
     var singleControl = {gameString:"singleControl", game:[[6,6], [0,6], [6,6], [0,6]], choices:_.shuffle([0, 1])}      //  0 1
@@ -75,12 +75,10 @@ var InteractionsExperiment = function() {
 	return tablestr;
     };
 
-    friendsAnswered1 = false 
-    enemiesAnswered1 = false 
+    rangeAnswered1 = false
     justificationAnswered1 = false
 
-    friendsAnswered2 = false 
-    enemiesAnswered2 = false 
+    rangeAnswered2 = false
     justificationAnswered2 = false
 
     var gamesetup = function(names) {
@@ -99,20 +97,16 @@ var InteractionsExperiment = function() {
 	var secondColor = (pngSuffix === "_h") ? "<span style=\"color:#4472C4\">" : "<span style=\"color:#c55a11\">"
 	var secondR = (pngSuffix === "_h") ? game.game[game.choice][1] : game.game[game.choice][0]
 
-	friendsAnswered1 = false 
-	enemiesAnswered1 = false 
+	rangeAnswered1 = false
 	justificationAnswered1 = false
 
-	friendsAnswered2 = false 
-	enemiesAnswered2 = false 
+	rangeAnswered2 = false
 	justificationAnswered2 = false
 	
-	$("#friends1").click(function(){friendsAnswered1 = true; $("#friendsdiv1").css('background-color', "white")}) ;
-	$("#enemies1").click(function(){enemiesAnswered1 = true; $("#enemiesdiv1").css('background-color', "white")}) ;
+	$("#range1").click(function(){rangeAnswered1 = true; $("#rangediv1").css('background-color', "white")}) ;
 	$("#judgements1").click(function(){justificationAnswered1 = true; $("#judgements1").css('background-color', "white")}) ;
 	
-	$("#friends2").click(function(){friendsAnswered2 = true; $("#friendsdiv2").css('background-color', "white")}) ;
-	$("#enemies2").click(function(){enemiesAnswered2 = true; $("#enemiesdiv2").css('background-color', "white")}) ;
+	$("#range2").click(function(){rangeAnswered2 = true; $("#rangediv2").css('background-color', "white")}) ;
 	$("#judgements2").click(function(){justificationAnswered2 = true; $("#judgements2").css('background-color', "white")}) ;
 	
 	// Reset the instructions button, and add a listener that will reload 
@@ -131,41 +125,39 @@ var InteractionsExperiment = function() {
 	// Sets up sliders and gets the names of the fake players
 	console.log(game.choice)
 
+	var labels = _.shuffle(["Definitely<br />Enemies","Definitely<br />Friends"])
+	d3.select("#left1").html(labels[0])
+	d3.select("#right1").html(labels[1])
+	d3.select("#left2").html(labels[0])
+	d3.select("#right2").html(labels[1])
+
 	d3.select('#attention1').html("");
 	d3.select('#names1').html(firstP + " and " + secondP + " are playing the game shown below. " + firstP + " goes first and chooses option " + firstColor + firstC + "</span>.");
 	d3.select("#table1").html(buildFirstTableString(game, names, game.choice, pngSuffix));
 	d3.select("#prompt1").html("Based only on " + firstP + "'s choice, how likely is it that the two players are...");
-	d3.select("#friends1").property('value',50)
-	d3.select("#enemies1").property('value',50)
+	d3.select("#range1").property('value',50)
 	d3.select("#judgements1").property('value','')
 	
 	d3.select('#attention2').html("");
 	d3.select('#names2').html("Following " + firstP + "'s choice, " + secondP + " chooses option " + secondColor + secondC + "</span>. This resulted in "+firstP+" receiving $" + firstR + ", and "+secondP+" receiving $"+secondR +".");
 	d3.select("#table2").html(buildSecondTableString(game, names, game.choice));
 	d3.select("#prompt2").html("Now, based on both choices, how likely is it that the two players are...");
-	d3.select("#friends2").property('value',50)
-	d3.select("#enemies2").property('value',50)
+	d3.select("#range2").property('value',50)
 	d3.select("#judgements2").property('value','')
 
 	// Sets up click listeners for the continue button
 	// verifies all of the logic, and makes sure that the user has made a judgement
 	$("#moveon").off('click.someSpace');
 	$("#moveon").on('click.someSpace', function () {
-	    friendProb1 = d3.select("#friends1")[0][0].value
-            enemyProb1 = d3.select("#enemies1")[0][0].value
-            judgements1 = d3.select("#judgements1")[0][0].value
+	    rangeProb1 = d3.select("#range1")[0][0].value
+	    judgements1 = d3.select("#judgements1")[0][0].value
 
 	    tocontinue = true
 	    var judgement1 = $.trim($("#judgements1").val());
 	    if (!debug) {
-		if(!friendsAnswered1 && friendProb1==50 ){
+		if(!rangeAnswered1 && rangeProb1==50 ){
 		    console.log("A question was left unanswered.")
-		    $("#friendsdiv1").css('background-color', "#ffe0e0")
-		    tocontinue = false
-		}
-		if(!enemiesAnswered1 && enemyProb1==50 ){
-		    console.log("A question was left unanswered.")
-		    $("#enemiesdiv1").css('background-color', "#ffe0e0")
+		    $("#rangediv1").css('background-color', "#ffe0e0")
 		    tocontinue = false
 		}
 		if(!justificationAnswered1 || judgement1.length <= 0){
@@ -189,22 +181,14 @@ var InteractionsExperiment = function() {
 	// verifies all of the logic, and makes sure that the user has made a judgement
 	$("#nextbutton").off('click.someSpace');
 	$("#nextbutton").on('click.someSpace', function () {
-	    friendProb2 = d3.select("#friends2")[0][0].value
-	    enemyProb2 = d3.select("#enemies2")[0][0].value
+	    rangeProb2 = d3.select("#range2")[0][0].value
 	    judgements2 = d3.select("#judgements2")[0][0].value
 	    tocontinue = true
 	    var judgement2 = $.trim($("#judgements2").val());
 	    if(!debug){
-
-		
-		if(!friendsAnswered2 && friendProb2==50 ){
+		if(!rangeAnswered2 && rangeProb2==50 ){
 		    console.log("A question was left unanswered.")
-		    $("#friendsdiv2").css('background-color', "#ffe0e0")
-		    tocontinue = false
-		}
-		if(!enemiesAnswered2 && enemyProb2==50 ){
-		    console.log("A question was left unanswered.")
-		    $("#enemiesdiv2").css('background-color', "#ffe0e0")
+		    $("#rangediv2").css('background-color', "#ffe0e0")
 		    tocontinue = false
 		}
 		if(!justificationAnswered2 || judgement2.length <= 0){
@@ -212,7 +196,6 @@ var InteractionsExperiment = function() {
 		    $("#judgements2").css('background-color', "#ffe0e0")
 		    tocontinue = false
 		}
-
 		if(!tocontinue){
 		    // alert("Please answer for all of the fields")
 		    return
@@ -223,28 +206,23 @@ var InteractionsExperiment = function() {
             
             results[[game.gameString,row]] = {'game':game.gameString,
 					      'outcome':game.choice,
-					      'friendProb1':friendProb1,
-					      'enemyProb1':enemyProb1,
+					      'rangeProb1':rangeProb1,
 					      'judgements1':judgements1,
-					      'friendProb2':friendProb2,
-					      'enemyProb2':enemyProb2,
+					      'rangeProb2':rangeProb2,
 					      'judgements2':judgements2
 					     }
             psiTurk.recordTrialData({'phase':'TRIAL',
+				     'leftLabel':labels[0],
 				     'game':game.gameString,
 				     'outcome':game.choice,
 				     'firstPlayer':pngSuffix,
 				     'choice1':firstC,
-				     'friendsProb1':friendProb1,
-				     'enemyProb1':enemyProb1,
+				     'rangeProb1':rangeProb1,
 				     'judgements1':judgements1,
 				     'choice2':secondC,
-				     'friendsProb2':friendProb2,
-				     'enemyProb2':enemyProb2,
+				     'rangeProb2':rangeProb2,
 				     'judgements2':judgements2,
 				     'time':rt
-				     // 'playerA':names[0],
-				     // 'playerB':names[1]
 				    })
             psiTurk.saveData()
 
@@ -255,7 +233,7 @@ var InteractionsExperiment = function() {
 
 
     chosenNames = [0,0]
-    nTrials = 13
+    nTrials = 11
 
     // Randomly generate trial order
     stims = _.shuffle(rowChoices);
@@ -273,8 +251,8 @@ var InteractionsExperiment = function() {
     }
     games = trials
 
-    // generate index of attention check after trial 9 (generates an index between 2 and 5)
-    // in other words, places attention check at trial 10, 11, or 12
+    // generates index of attention check after trial 7 (generates an index between 2 and 5)
+    // in other words, places attention check at trial 8, 9, or 10
     attention = Math.floor(Math.random() * (trials.length - 10) + 2);
     console.log(attention)
     console.log(trials)
@@ -290,29 +268,30 @@ var InteractionsExperiment = function() {
 	counter++;
 	d3.select("#trialNumber").html("Case "+counter+" of "+(nTrials))
 	chosenNames = [availableNames.shift(),availableNames.shift()]
-	row = 0 // Math.floor(Math.random() * 4 );
+	row = 0;
 
         // Reset all the forms
-        d3.select("#friends1").property('value',50)
-        d3.select("#enemies1").property('value',50)
-        $("#friendsdiv1").css('background-color', "white")
-        $("#enemiesdiv1").css('background-color', "white")
-        $("#judgements1").css('background-color', "white")
+ 	d3.select("#range1").property('value',50)
+	$("#rangediv1").css('background-color', "white")
+	$("#judgements1").css('background-color', "white")
 
-	d3.select("#friends2").property('value',50)
-        d3.select("#enemies2").property('value',50)
-        $("#friendsdiv2").css('background-color', "white")
-        $("#enemiesdiv2").css('background-color', "white")
-        $("#judgements2").css('background-color', "white")
+	d3.select("#range2").property('value',50)
+	$("#rangediv2").css('background-color', "white")
+	$("#judgements2").css('background-color', "white")
 
 	$("#trial2").hide();
 	$("#trial1").show();
 
         if (games.length == 0) {
-	    // rt = new Date().getTime() - wordon;
             finish();
         } else if (games.length == attention) {
-            game=attentionGame
+            game = attentionGame
+	    
+	    d3.select("#left1").html("Definitely<br />Enemies")
+	    d3.select("#right1").html("Definitely<br />Friends")
+	    d3.select("#left2").html("Definitely<br />Enemies")
+	    d3.select("#right2").html("Definitely<br />Friends")
+
 	    d3.select('#names1').html("");
 	    d3.select('#prompt1').html("");
             d3.select('#attention1').html("Please enter just a \"0\" in the text box and hit next, so that we know you are still paying attention.");
@@ -329,7 +308,6 @@ var InteractionsExperiment = function() {
         } else {
             game = games.shift();
 	    
-	    // wordon = new Date().getTime();
 	    gamesetup(chosenNames)
 
 	}
@@ -340,7 +318,6 @@ var InteractionsExperiment = function() {
 
     var finish = function() {
 	strings = {attentionGame:"attentionGame", pd:"pd", threat:"threat", disjunctive:"disjunctive", coordination:"coordination", singleControl:"singleControl"}
-	// var rt = new Date().getTime() - wordon;
 
 	console.log(results)
 	for(item in results){

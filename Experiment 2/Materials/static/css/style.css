@@ -107,7 +107,7 @@ h1 {
 
 #sliders input {
   padding: 5px;
-  width: 75%;
+  width: 100%;
     border:none;
     background:none;
 }
@@ -157,7 +157,7 @@ h1 {
 input[type=range] {
   -webkit-appearance: none;
   margin: 10px 0;
-  width: 75%;
+  width: 100%;
   display:inline;
 }
 input[type=range]:focus {
