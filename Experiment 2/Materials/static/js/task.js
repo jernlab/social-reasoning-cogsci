@@ -75,6 +75,11 @@ var InteractionsExperiment = function() {
 	return tablestr;
     };
 
+
+    // Randomizes slider labels
+    var labels = _.shuffle(["Definitely<br />Enemies","Definitely<br />Friends"])
+
+    // confirmation booleans
     rangeAnswered1 = false
     justificationAnswered1 = false
 
@@ -125,7 +130,6 @@ var InteractionsExperiment = function() {
 	// Sets up sliders and gets the names of the fake players
 	console.log(game.choice)
 
-	var labels = _.shuffle(["Definitely<br />Enemies","Definitely<br />Friends"])
 	d3.select("#left1").html(labels[0])
 	d3.select("#right1").html(labels[1])
 	d3.select("#left2").html(labels[0])
@@ -253,14 +257,12 @@ var InteractionsExperiment = function() {
 
     // generates index of attention check after trial 7 (generates an index between 2 and 5)
     // in other words, places attention check at trial 8, 9, or 10
-    attention = Math.floor(Math.random() * (trials.length - 10) + 2);
+    attention = Math.floor(Math.random() * (trials.length - 8) + (trials.length - 10);
     console.log(attention)
     console.log(trials)
     counter = 0
     game = null
     nTrials = trials.length + 1
-
-
 
     // generates the next scenario and chooses the fake player names
     var next = function() {
@@ -287,10 +289,10 @@ var InteractionsExperiment = function() {
         } else if (games.length == attention) {
             game = attentionGame
 	    
-	    d3.select("#left1").html("Definitely<br />Enemies")
-	    d3.select("#right1").html("Definitely<br />Friends")
-	    d3.select("#left2").html("Definitely<br />Enemies")
-	    d3.select("#right2").html("Definitely<br />Friends")
+	    d3.select("#left1").html(labels[0])
+	    d3.select("#right1").html(labels[1])
+	    d3.select("#left2").html(labels[0])
+	    d3.select("#right2").html(labels[1])	    
 
 	    d3.select('#names1').html("");
 	    d3.select('#prompt1').html("");
