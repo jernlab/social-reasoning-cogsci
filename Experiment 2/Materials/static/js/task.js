@@ -255,9 +255,9 @@ var InteractionsExperiment = function() {
     }
     games = trials
 
-    // generates index of attention check after trial 7 (generates an index between 2 and 5)
-    // in other words, places attention check at trial 8, 9, or 10
-    attention = Math.floor(Math.random() * (trials.length - 8) + (trials.length - 10);
+    // generates index of attention check after trial 6 (generates an index between 2 and 5)
+    // in other words, places attention check at trial 7, 8, 9, or 10
+    attention = Math.floor(Math.random() * (5-2+1) + 2);
     console.log(attention)
     console.log(trials)
     counter = 0
