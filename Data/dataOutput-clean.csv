@@ -1,0 +1,898 @@
+uniqueid,time,game,firstPlayer,choice1,rangeProb1,judgements1,choice2,rangeProb2,judgements2
+1,261673.0,singleControl0,column,A,85,Maria wanted it to be even.,A,73,He wanted to be fair and have the money come out evenly too.
+1,322513.0,singleControl1,row,A,61,money is even,B,42,"Jack  gets more.
+"
+1,377884.0,pd3,column,B,39,Megan gets all of the money.,B,58,Money is even.
+1,417786.0,pd0,column,A,62,Money is even.,A,58,Money even.
+1,476683.0,threat1,column,B,45,He gets more.,A,63,Letting him get more than him.
+1,519798.0,threat0,column,A,57,Gives Olivia more.,A,44,Olivia got  more.
+1,580063.0,threat3,column,B,48,Sally got more.,B,55,He gave all of the money to Sally.
+1,639470.0,disjunctive0,row,A,62,Even money,A,60,money even
+1,662122.0,disjunctive3,row,B,59,money even,B,55,neither got money
+1,736207.0,coordination0,column,A,63,money even,A,59,money even
+1,764567.0,coordination1,column,B,57,money even which is none,A,51,money even which is none
+2,37374.0,pd0,row,A,79,equal pay,A,83,equal pay
+2,77094.0,pd3,row,B,21,he takes it all,B,71,equal pay out
+2,128613.0,threat3,row,B,21,he took it all,B,18,he took it all
+2,164843.0,threat0,column,A,41,unequal pay,A,61,she wanted to give her more
+2,220955.0,threat1,column,B,49,uneven pay out,A,47,It was better than choosing $0
+2,249870.0,disjunctive0,column,A,47,both options give the same pay,A,10,both options give the same pay
+2,300142.0,disjunctive3,column,B,49,better than choosing $0 across the board,B,9,they both chose $0
+2,333801.0,coordination1,column,B,73,even pay in positive.,A,17,he didnt want jack to have any
+2,380679.0,coordination0,column,A,67,even pay out,A,47,better than not getting anything.
+2,455503.0,singleControl0,row,A,68,even pay out and better than 0,A,70,even pay out 
+2,491996.0,singleControl1,column,B,26,he doesnt want her to have money,A,66,she wants him to have money over her.
+3,66160.0,pd3,column,B,13,Kaylee did not trust Lauren,B,6,Lauren reciprocated Kaylee's selfishness
+3,99605.0,pd0,column,A,100,Daniel is unselfish with Luke,A,100,Both were unselfish
+3,138382.0,coordination0,row,A,50,Zoe's choice didn't matter,A,50,Jack only had one real choice
+3,171315.0,coordination1,column,B,50,Gavin's choice is irrelevant,A,0,Sydney would rather Gavin have nothing than have something themself
+3,204510.0,singleControl1,column,B,0,Rebecca screwed Robert for no reason,A,0,Robert has no real choice
+3,233582.0,singleControl0,column,A,50,Megan picked the sensible option but lost nothing,A,50,William had no choice
+3,282555.0,threat0,row,A,50,Emily is attempting to maximize payout,A,100,Matthew was selfless
+3,323958.0,threat3,row,B,0,Geoff is minimizing payout,B,0,Jacob made the selfish choice
+3,359933.0,threat1,row,A,50,Matt is maximizing payout,B,49,"Austin chooses selfishly, but it is expected behavior"
+3,394053.0,disjunctive3,column,B,0,David gives Maria the option to spite him for no reason,B,0,Maria gives up payment to spite David
+3,413801.0,disjunctive0,column,A,50,Ryan picks the sensible option,A,50,Olivia has no real choice
+4,157439.0,pd0,column,A,69,I chose somewhat friend because he wanted the person to get money but at the same time value himself more,A,100,Both got equal pay
+4,215766.0,pd3,row,B,29,Zoe decided to be selfish and not let that other person deserve anything,B,76,possibility since they got equal pay and care about one another
+4,276513.0,singleControl0,column,A,85,Rebecca decided to give his friend the same value of money,A,92,I believe Rebecca value Ryan thus both of them deserve equal pay
+4,340638.0,singleControl1,row,A,80,I said Lauren value Emily as a friend,B,21,Emily is one harsh person and consider Lauren an enemy thus Lauren didn't get anything
+4,430482.0,threat0,column,A,82,I believe William care about Kaylee more thus letting her have a lot,A,81,Kaylee wanted William to have some instead of nothing just she care about him a bit
+4,501222.0,threat1,column,B,31,I think Kate is selfish and wanted to give less to Robert,A,80,Kate decided to give Robert something thus she care about him
+4,562983.0,threat3,column,B,66,I said Hannah wants to give Gerald a little bit since she value him,B,0,That Hannah doesn't have Gerald at all and wanted everything for herself
+4,607265.0,disjunctive0,column,A,100,Megan want her and her friend to prosper thus she selected this choice,A,100,She believes Daniel deserves equal pay thus selecting this option
+4,659505.0,disjunctive3,column,B,93,I think Matt chose this option because Olivia is a good friend.,B,0,To see Matt does this to Olivia means he hate her.
+4,727024.0,coordination0,row,A,100,I believe Luke wants an equal share of profit for both him and his friend thus he chose this choice,A,100,They are definitely friend since they both got equal pay
+4,786021.0,coordination1,column,B,100,I believe Matthew know what his friend want the most so he chose this choice,A,0,Matthew chose this so Sydney can feel suffering. Even though he is hurting himself
+5,280162.0,disjunctive0,column,A,86,"It looks like they chose to benefit each other, because both got $12.",A,94,Both got $12 because they both chose A. Friends make sure each other benefit. 
+5,435662.0,disjunctive3,row,B,81,"Looks like he likes Sally, because they both get $12 if he chooses B. ",B,30,"Looks like they're enemies, because Sally obviously doesn't like Gerald if she chose B. "
+5,499185.0,pd3,row,B,15,"Jacob basically chose for William to get $0, so enemies. ",B,58,"Looks like William doesn't have any hard feelings towards Jacob, because he chose for him to at least get some money instead of $0."
+5,554158.0,pd0,column,A,69,"He chose for them both to get something, so he must like her some. ",A,84,"She chose where they both got something, as well, so she must not dislike him much. 
+"
+5,641088.0,threat1,column,B,49,Not sure on this one.,A,52,"Not sure, this one's a guess. "
+5,722477.0,threat0,row,A,40,"Maybe enemies, because they both get something for picking A, but Zoe does get more. ",A,67,He likes her or he wouldn't have picked A knowing he would have gotten less for it. 
+5,799218.0,threat3,row,B,38,"Maybe enemies, otherwise, why risk getting $0?",B,14,"Enemies, because she chose to leave him $0 and take $6. "
+5,846149.0,coordination0,row,A,49,"Looks like a toss up, it's all or nothing. ",A,49,"Again, a toss up. I'd pick $12 over nothing, even if it was an enemy I was playing with. "
+5,918470.0,coordination1,row,A,49,Not sure. All or nothing again. ,B,1,"Enemies, otherwise he wouldn't have picked B knowing he'd get nothing even if she got nothing. "
+5,1056989.0,singleControl1,column,B,19,"Both result in Daniel getting $6 and Sydney getting nothing, so looks like enemies. ",A,49,Maybe she likes him? I don't know.
+5,1132102.0,singleControl0,column,A,74,"They both get money on option A, so I'd guess friends. ",A,92,"Matt could have gotten money without choosing option A, so friends."
+7,115648.0,threat1,column,B,52,There is not enough information to judge this.,A,54,There is not enough information to judge this.
+7,176399.0,threat3,row,B,34,This seems a spiteful choice.,B,47,There is not enough information to judge this.
+7,185247.0,threat0,row,A,52,There is not enough information to judge this.,A,49,There is not enough information to judge this.
+7,203496.0,disjunctive0,column,A,57,There is not enough information to judge this.,A,60,There is not enough information to judge this.
+7,212127.0,disjunctive3,column,B,51,There is not enough information to judge this.,B,53,There is not enough information to judge this.
+7,907984.0,singleControl0,row,A,52,There is not enough information to judge this.,A,57,There is not enough information to judge this.
+7,931695.0,singleControl1,row,A,55,There is not enough information to judge this.,B,42,There is not enough information to judge this.
+7,940336.0,pd3,column,B,48,There is not enough information to judge this.,B,52,There is not enough information to judge this.
+7,951264.0,pd0,column,A,56,There is not enough information to judge this.,A,52,There is not enough information to judge this.
+7,983768.0,coordination0,row,A,55,There is not enough information to judge this.,A,54,There is not enough information to judge this.
+7,997847.0,coordination1,column,B,52,There is not enough information to judge this.,A,56,There is not enough information to judge this.
+8,180982.0,threat0,row,A,47,"It's hard to they're friends, as if he was a true friend, as Robert seemed to choose his best option for getting at least $6",A,100,"Gerald had the opportunity to get $12, yet he chose to give Robert the $12 instead."
+8,346317.0,threat3,row,B,7,"If they were friends, he would have chosen an option where they both get money.",B,0,It's even more obvious that they're enemies because William chose to give $0 to Austin
+8,440574.0,threat1,row,A,82,Most likely friends because Sydney chose an option where they would both get money.,B,51,"Hard to say now, as if they were really good friends, then perhaps Lauren would have given the $12 to Sydney"
+8,650661.0,coordination1,column,B,50,"Unable to tell if they are friends or enemies, as any choice that Hannah makes gives the same options, either get $12 or $0.",A,12,"Definitely not friends, because if they were, Jacob would have chosen to have both receive $12 instead of $0"
+8,765078.0,coordination0,column,A,49,"As in the previous case, unable to tell because the options are the same",A,49,"Still unable to tell if they are friends or enemies.  She could be making the choice that gives her the most money, and it just happens to give David the same amount."
+8,871733.0,singleControl1,row,A,74,"Possibly friends, as Maria gives Gavin the option to get $6 either way, but there's also no difference in the choices given",B,0,"If they were friends, Gavin would have chosen the option to give Maria $6 as well."
+8,964558.0,singleControl0,row,A,51,"Unable to tell, as both options are the same.",A,90,"Most likely friends, otherwise Logan would have likely chosen the option to give Megan $0."
+8,1060614.0,pd3,column,B,20,Most likely enemies and Jack is choosing the best option to get the most money.,B,0,"If they were friends, Olivia would have given Jack the $12"
+8,1141351.0,pd0,column,A,85,"Most likely friends, as Matt is choosing the option that gives Ryan the best chance for a better payout.",A,100,"Being the nice friend that Ryan is, he chose to give even amounts when he could have taken the $12"
+8,1245406.0,disjunctive3,row,B,26,"If they were friends, he would have chosen the option where they are guaranteed $12",B,0,"Apparently Luke doesn't like money, or Geoff, as he chose the option to give $0 to both"
+8,1315255.0,disjunctive0,column,A,48,"Zoe picked the best option for the most amount of money, but can't tell if they're friends by it.",A,55,"Still can't tell, because there's not better choice"
+9,169701.0,pd0,row,A,79,I think they may be friends because they both choose option B and get a 12$ payout for each other,A,86,They both chose A so that they would get the same payout as well
+9,259931.0,pd3,column,B,14,Geoff chose option B which makes William get 0$ and this indicates non-friendliness,B,29,They are probably not friends or one of them would sacrificed to get 0$ while the other one gets a 12$ payout which is much higher than 4$ for both
+9,309614.0,disjunctive3,row,B,76,If they both choose the same options they will both get the same payout ,B,25,Neither one of them compromised to get any payout at all so they probably both wanted a high payout
+9,365045.0,disjunctive0,column,A,58,Option A has a greater chance of getting higher payouts for both of them which indicates friendliness,A,66,They both got the same payout
+9,444634.0,threat0,column,A,25,Gerald gets a higher payout than Jack no matter what Jack chooses,A,67,They could be friends because they chose options where they both get good payouts
+9,495942.0,threat3,row,B,31,Lauren chose an option where they both get good payouts so they could be friends,B,93,Ryan chose an option where Lauren gets a payout but he doesn't
+9,534396.0,threat1,row,A,33,Richmond went for the higher payout,B,29,Megan chose to get a higher payout than Richmond
+9,590134.0,coordination0,row,A,36,Emily chose an option where they could possibly both get a good payout,A,69,They both chose options where they both get a good payout
+9,630091.0,coordination1,row,A,66,Matt chose an option where they both get good payouts,B,14,Luke chose an option where neither of them get paid which does not indicate them being friends
+9,685752.0,singleControl1,column,B,25,Jacob chose an option where Zoe cannot get a good payout,A,24,Zoe was forced to choose an option that ended with only Jacob getting a payout
+9,713779.0,singleControl0,column,A,69,Olivia chose an option where they both get a good payout,A,77,They both got good payouts from their mutual choices
+10,188455.0,coordination1,row,A,50,A normal person will pick this option,B,0,Only enemies will choose to gain nothing to punish someone
+10,243481.0,coordination0,column,A,50,Normal person's choice,A,50,Normal person's option
+10,366239.0,pd3,column,B,44,Olivia is just greedy,B,49,Daniel is forced to make this decision to gain something
+10,438444.0,pd0,row,A,70,Sydney is being nice here,A,71,Emily is a nice person
+10,545396.0,threat1,column,B,50,"They are probably strangers, seeks best option for themselves",A,50,"They are probably strangers, seeks best option for themselves"
+10,683165.0,threat0,row,A,68,Lauren just seeks best option for her,A,72,Robert is a generous person
+10,742257.0,threat3,column,B,50,"They are probably strangers, seeks best option for themselves",B,10,Sally does not like Austin 
+10,769607.0,disjunctive0,row,A,50,Normal person's choice,A,50,Either outcome is the same
+10,850282.0,disjunctive3,row,B,11,Megan does not like Kate,B,0,Kate is giving up a gain to punish Megan
+10,911011.0,singleControl0,column,A,50,Normal person's option,A,50,either outcome is the same
+10,976069.0,singleControl1,column,B,17,Logan dislikes Richmond,A,51,Either outcome is the same
+11,87119.0,pd3,column,B,20,BECAUSE HE EARN MORE,B,21,BECAUSE HE RECEIVES AN AMOUNT IS LOW AND SHARE AMOUNT IS EQUAL
+11,140237.0,pd0,column,A,22,BECAUSE DANIEL CHOOSE AS SHARE 8 AND &12,A,90,DANIEL CHOICE IS GOOD BECAUSE BOTH ARE EQUALLY SHARE
+11,222103.0,disjunctive3,column,B,91,FRANK CHOICE IS BETTER TO MOTIVATE EQUALLY ARRANGE THE $12,B,76,BECAUSE HE DOES NOT EARN EQUALLY
+11,267139.0,disjunctive0,row,A,83,LOGAN CHOOSE MOST OF OPTION A AS TO PLAY INVEST GAME AS EQUALLY,A,88,HE DEFINITELY FRIENDS TO SHARE EQUAL AMOUNT
+11,334574.0,threat0,row,A,67,KATE MAKES MORE SELFISH TO EARN GAME AND PLAYS,A,26,KATE JUDGEMENT TO EARN MORE TO COMPARE HANNAH AND MAKE MORE POSITIVE THOUGHT OF GAME
+11,457022.0,threat1,row,A,34,EMILY MAKE CHOICE IS GOOD FOR TO SUPPORT THE GAME AS INCLUDES AND BENEFIED AS PROBLEM OF MAKING CHOICE,B,77,EMILY PERFORMS A JUDGEMENT TAKES MORE EFFECTIVE PLAY THE GAME
+11,513014.0,threat3,row,B,70,LUKE GOES TO MAKE MORE SUPPORT TO GAME AT THE MOMENT MORE EARN TO PLAY THE GAME,B,34,BECAUSE HE RECEIVE A $0 IN PLAY
+11,568366.0,singleControl0,column,A,79,HE DEFINITELY MAKES GOOD TO PLAY THE GAME AND MOST EARNABLE THOUGHTS OF OPINION,A,68,HE RECEIVES A GOOD COST OF PLAY AND INVESTMENT AND MAKE MORE SUPPORTIVE TO PLAY THE GAME
+11,633285.0,singleControl1,row,A,85,GAVIN GOES TO CHOOSE OPTION A AS INCLUDE AND MAKE MORE EARNABLE TO PLAY THE GAME,B,55,DEFINITELY FRIEND BECAUSE GAVIN RECEIVES A $0 AND HE GAVE TO ROBERT
+11,692936.0,coordination0,row,A,28,RYAN CHOOSE A $12 AS GOOD TO EARN AND MOTIVATE TO PLAY,A,84,BOTH ARE EQUAL SO IT DEFINITELY FRIENDS
+11,750046.0,coordination1,row,A,77,DAVID CHOOSE A GAME AS PLAY FOR $12 FOR EACH SHARING SO THIS IS FRIENDLY,B,65,IN THAT TIME HE RECEIVES BOTH ARE 0 SO HE FRIENDLY
+12,73090.0,threat3,column,B,30,He chose consistently to give her less money.,B,79,She chose to get nothing while he recieved money.
+12,151538.0,threat1,row,A,54,He made a choice that gav e them both money.,B,64,They still both recieved money.
+12,195732.0,threat0,row,A,55,They both recieve money in this choice.,A,90,She chose to have Gerald receive more money than she did.
+12,247382.0,disjunctive3,column,B,62,They both recieved a payout.,B,17,He would rather recieve nothing if it meant that Austin would also receive nothing.
+12,285124.0,disjunctive0,row,A,65,They receive an equal payout.,A,79,"Again, they both recieve an equal payout."
+12,317167.0,coordination0,column,A,79,They both recieve an equal payout.,A,73,They both recieve an equal payout.
+12,377337.0,coordination1,column,B,5,"She would rather neither of them recieve any money, so she must dislike Daniel.",A,2,"Daniel would rather recieve nothing, if it means Sally does as well."
+12,409259.0,singleControl0,column,A,72,They both recieve equal money in this choice.,A,72,They both recieve an equal amount in the stuation.
+12,496179.0,singleControl1,row,A,74,They both recieve an equal amount of money in this choice.,B,15,"Even though Sydney chose for them to recieve equal amount, Kate chose for Sydney to recieve nothing. She could have chosen for them to both recieve money."
+12,589799.0,pd0,column,A,73,He could have made more but chose for them to recieve equal amounts.,A,87,"He chose for them to both get money, even though he could have earned more at the expense of David earning nothing."
+12,669265.0,pd3,row,B,18,Megan chose to recieve money while Hannah would recieve nothing.,B,57,Megan chose for them both to recieve money even though Hannah didn't do the same.
+13,120016.0,pd0,column,A,52,One person wanted to share the other did not,A,100,They both wanted to cooperate 
+13,191953.0,pd3,column,B,46,One person cooperated and the other did not,B,2,They both wanted to sabotage each other. 
+13,256048.0,disjunctive3,column,B,24,She wanted to sabotage the other person,B,0,Both wanted to sabotage each other.
+13,283891.0,disjunctive0,column,A,74,They wanted to cooperate,A,100,Both wanted to share.
+13,336954.0,coordination1,row,A,72,Daniel wanted to share,B,6,He sabotaged the other person
+13,461413.0,coordination0,column,A,65,He wanted to share,A,100,they both shared
+13,543715.0,singleControl1,row,A,53,He gets money either way,B,26,He wanted to send a message
+13,598702.0,singleControl0,row,A,55,She gets money either way,A,92,They cooperated
+13,704397.0,threat1,column,B,38,he wanted to maximize his money,A,61,B would have netted him nothing
+13,980137.0,threat0,column,A,100,She is taking a lesser amount,A,100,She let her partner have money
+13,1029089.0,threat3,column,B,46,he wanted to maximize his money,B,0,He took nothing to punish the other person
+14,206899.0,coordination1,column,B,87,"Sydney chose the option that was most fair to them both, giving 12 to himself/herself and Richmond.",A,30,"Richmond is the second player, so he knows Sydney's choice. Since he chose to negate their reward, he must really not like Sydney."
+14,276575.0,coordination0,row,A,57,"William could be Matt's friend, depending. He wants money, that's all that can be said.",A,78,"There is a chance that they are both friends, and a higher chance now. Still, the choices are so black and white, it's hard to really tell."
+14,328878.0,pd0,row,A,72,"There's a decent chance they are friends, as he took a pay cut of 4 dollars to be more fair.",A,90,They are likely friends because they both took a paycut to be equal.
+14,415521.0,pd3,column,B,36,"This option benefits jack the most, so they likely are not friends.",B,39,"This benefits both, but not as much as it would have if A was chosen. Likely they are not friends."
+14,472571.0,disjunctive3,row,B,49,This could go either way. Cannot tell until David chooses.,B,6,"Since David hurt himself in choosing B to hurt Matthew, they must really dislike one another."
+14,540167.0,disjunctive0,row,A,53,"This is a win/win row, so it's hard to tell.",A,90,"Almost certainly they don't dislike each other, though they may just want money."
+14,592133.0,singleControl1,row,A,55,Can't tell with this row. Must wait.,B,97,"Since Kaylee chose to not take any money herself, she must be friends."
+14,624437.0,singleControl0,column,A,57,Can't tell until next choice,A,78,"They seem to be friends, or like money anyways. They chose the most profitable way."
+14,687827.0,threat3,row,B,12,"This row is all or nothing, so it's likely they don't like each other.",B,4,"Daniel chose to enrich himself a Geoff's expense, so likely they don't care for one another."
+14,770280.0,threat0,column,A,49,"Hard to say yet. One way is the best possible choice of the choices, the other is all or nothing.",A,72,They are likely friends or at least not enemies since Austin chose the more profitable choice.
+14,881200.0,threat1,row,A,76,"This row is the most profitable, so likely they don't hate each other, at least.",B,36,"Gerald probably just likes money, but he may not like Ryan still."
+15,96589.0,singleControl0,row,A,97,Because Zoe has opted to split the money.,A,98,Because Frank has been fair in return.
+15,172421.0,singleControl1,column,B,18,Because Kate has kept the money.,A,88,Because William opted to give Kate the money.
+15,261341.0,threat0,column,A,96,Because Kate gave Jacob more money.,A,26,Probably not enemies because Jacob did give Olivia some money.
+15,342717.0,threat1,row,A,82,Because Daniel did give some money to David.,B,77,Because both players received money.
+15,434167.0,threat3,column,B,80,Because Hannah did give money to Matt.,B,91,Because Matt made sure Hannah received some money
+15,515710.0,coordination0,row,A,54,Hard to tell because the other options are not attractive.,A,63,Hard to tell because that was the only option that made sense.
+15,588557.0,coordination1,column,B,7,They have to be enemies to pick 0 money for both.,A,10,"Same, they both lost money in this."
+15,678189.0,disjunctive3,column,B,57,Hard to tell if they are friends because of the options.,B,10,Believe they are enemies because Sally forfeited money for no good reason.
+15,755854.0,disjunctive0,column,A,56,They could be either friends or enemies based on available choices.,A,51,They could be friends or enemies based on the available choices.
+15,875973.0,pd0,row,A,90,Probably friends because Megan chose fairly.,A,100,Definitely friends because Ryan chose fairly.
+15,991359.0,pd3,column,B,17,Probably not friends because Sydney chose to take it all.,B,60,"Logan did the fair thing by splitting the money, she may consider him a friend."
+16,111021.0,threat1,row,A,75,"It is likely they are friends because David chose the one that will pay them both, however he could have just done it because he got more.",B,50,"I don't think it is clear in this situation because either way one of them is getting more money and Kaylee just chose that she would get more money. I don't think this means they aren't friends, but I also don't think it means they are."
+16,167120.0,threat0,row,A,88,I think they are likely to be friends because Rebecca chose the one that would benefit both of them.,A,100,They are definitely friends because Maria sacrificed $6 so that Rebecca could get more money than her.
+16,230590.0,threat3,row,B,0,They are absolutely enemies because Richmond chose the option that made him less money just so Gerald would not get anything.,B,0,They both chose the most spiteful options so I strongly believe they are enemies.
+16,302852.0,pd3,column,B,16,I think it is very likely enemies because Sally chose the option that would get her the most money while giving Matt $0.,B,0,"They are definitely enemies, they chose the options that were the absolute worst for the other person in both rounds."
+16,351514.0,pd0,row,A,99,They are definitely friends because Emily chose to get less money so that they could split it.,A,100,They are 100% friends because they both chose the best options for the other person.
+16,482950.0,singleControl0,row,A,50,"I don't think this shows one way or another, both options were the exact same.",A,100,They are definitely friends because Megan chose the option that was mutually beneficial. 
+16,588428.0,singleControl1,row,A,48,I don't think you can tell because both of Sydney's options were the same.,B,0,They are enemies because Robert chose to only help himself and rather than getting equal amounts left Sydney with nothing.
+16,640299.0,disjunctive3,row,B,51,You cannot tell because both of Daniels options were the same.,B,0,They are definitely enemies because Ryan would rather have nothing as long as Daniel got nothing.
+16,770971.0,disjunctive0,column,A,50,I cannot tell one way or another because Olivia had the same options either way.,A,51,I don't think it is possible to tell because both of Luke's options were the exact same.
+16,835008.0,coordination1,column,B,0,They are definitely enemies because Frank chose to have nothing so that Logan would also have nothing.,A,0,They are absolutely enemies because they would rather the other suffer at their expense.
+16,951681.0,coordination0,column,A,74,"I think it is likely they are friends, however Gavin could have just chosen that so that he would have gotten money.",A,83,They are most likely friends because they would rather them both have money than the other have nothings.
+17,103354.0,pd0,column,A,58,"One selection isn't really enough to make a prediction, but I would hazard towards friends over enemies.",A,67,"Choosing A as the second person is a lot riskier, and therefore usually only done if you think the first person chose A as well."
+17,142214.0,pd3,column,B,44,"Maybe not enemies, but probably not friends.",B,34,"Still not ""enemies"", but each out for their own gains."
+17,202312.0,coordination1,column,B,50,"It's a 50 50 since there is only one good choice for each play, it's just a guess though.",A,50,"It was still a blind guess, and showed no real motive."
+17,233058.0,coordination0,row,A,50,"Again, still a blind guess when the payout are like this.",A,50,"Lucky guess, can't tell if they are friends or enemies."
+17,324407.0,disjunctive0,column,A,50,"Can't really say, choosing B makes it so that Jacob loses money and it's the only way for him to lose money. It doesn't speak to relationship.",A,50,The only real correct option for Robert to make in order to guarantee making money.
+17,374131.0,disjunctive3,row,B,46,Not friends as B is the only way either play can lose money.,B,35,"Both players are dumb, and I would have to assume closer to enemies."
+17,436404.0,singleControl0,column,A,98,Choosing A means both plays have to make money.,A,96,"Again, William showed that he wanted both people to win money so they must be friends."
+17,472786.0,singleControl1,column,B,0,"Sydney made it so that Megan cannot win money, must be enemies.",A,26,Either choice for Megan means she looses.
+17,533172.0,threat3,column,B,16,Sally choose the option that guaranteed her the best payout for herself.,B,10,Emily choose the only option that would lead to Sally getting no money.
+17,651448.0,threat1,column,B,10,Kaylee choose the only option where Maria could lose money.,A,62,"Maria made the choice that could get them both money, maybe she thinks they are friends."
+17,693452.0,threat0,column,A,84,Daniel choose the option that means that Luke is guaranteed money.,A,91,Luke choose the option that guaranteed Daniel money.
+18,303080.0,threat1,column,B,16,Geoff was not nice and did not share much. probably not friends.,A,76,maybe  they are friends conspiring to get the most amount. Matt trusting Geoff to share in the end. 
+18,478856.0,threat0,row,A,82,this is the most both can receive. Probably friends.,A,90,Ooh maybe Jacob has the hots for Lauren. He could of chosen B and that would of been fair but he chose for Lauren to get more. 
+18,574053.0,threat3,row,B,0,The only reason Maria would chose less so Richmond can have none would be that she loathes him. not friends. selfish maria,B,12,"Richmond although disliking Maria, likes money more. "
+18,682729.0,pd3,row,B,1,frank is selfish.,B,11,Frank is trying to get something. 
+18,727256.0,pd0,row,A,89,Frank want to share. probably friends,A,100,Kaylee also wants to share. def friends
+18,809212.0,singleControl1,column,B,94,Selecting the option where they both get the most is smart and fair. probably friends,A,87,Mabe he likes her
+18,838132.0,singleControl0,row,A,87,"fiends share
+",A,88,fiends share
+18,976456.0,disjunctive3,column,B,51,most amount for him could go either way,B,0,sydney is so mad at david that they would rather no one have money
+18,1070907.0,disjunctive0,row,A,65,probably friends since she is sharing,A,100,looks like friends sharing the most they can get
+18,1248821.0,coordination1,row,A,79,may be friends or may just want the money,B,0,no one would take $0 rather than $12 unless they really don't want the other person getting any. vindictive
+18,1301498.0,coordination0,column,A,56,could go wither way because the only other option is $0,A,85,probably friends since they both shared. 
+19,92151.0,threat3,column,B,32,"Robert chose the option that was better for him, but they both made money.",B,0,Matthew was willing to take less money to hurt Robert.
+19,140567.0,threat0,column,A,66,Ryan is trusting Zoe not to leave him with no money.,A,76,Zoe maximized both of their earnings.
+19,210361.0,threat1,row,A,60,That option is better for both of them.,B,43,Olivia chose to prioritize her own earnings.
+19,265404.0,singleControl0,column,A,70,William wants Maria to get an equal share.,A,67,"Either option Maria chose would be good, so I'm still going off William's choice."
+19,343622.0,singleControl1,row,A,50,It's impossible to tell since both options leave Kate with the same choice.,B,0,Kate chose to hurt Geoff even though she didn't gain anything from it.
+19,401816.0,pd0,row,A,80,Sally chose the options that are best for Megan.,A,100,Megan chose to get less money so Sally could make money too.
+19,458757.0,pd3,column,B,26,Luke chose the option that's good for him and bad for Sydney.,B,17,Sydney chose the option that was good for him and bad for Luke.
+19,506994.0,coordination1,row,A,50,Both options give Gavin the same choice so Rebecca's choice doesn't say anything.,B,0,Gavin chose not to make money just so Rebecca wouldn't make money.
+19,568364.0,coordination0,row,A,50,Both options are the same so it doesn't say anything.,A,72,"Either Lauren wants Kaylee to make money, or she doesn't care as long as she benefits."
+19,668319.0,disjunctive3,column,B,100,David trusts Frank not to hurt him.,B,0,Frank hurt David even though it hurt himself too.
+19,721669.0,disjunctive0,row,A,41,Austin doesn't trust Hannah to make the choice that helps him.,A,44,It's still based on Austin's judgment since Hannah didn't get a choice.
+20,88745.0,pd3,column,B,19,"Gerald doesn't trust Richmond to share evenly and pick A if he himself picks A, so Gerald picks B where he benefits the most, no matter Richmond's choice.",B,7,Richmond didn't maximize Gerald's benefit at his own cost.
+20,121431.0,pd0,column,A,92,Sally trusts Sydney to share.,A,100,Sydney takes a small hit to benefit to maximize Sally's benefit.
+20,178416.0,singleControl1,row,A,50,"Kaylee's choices are identical, no info gained.",B,0,Robert chose to not give Kaylee $6 at no personal cost.
+20,230103.0,singleControl0,row,A,50,"William's options are identical, offering no useful information.",A,71,Olivia chooses to benefit William at no cost to herself. I wouldn't say this means friendship or just general kindness.
+20,286590.0,disjunctive3,column,B,37,Daniel give chance for Logan to spite both players. Slight lean to enemies.,B,0,Logan turns down $12 to deny Daniel $12
+20,340381.0,disjunctive0,row,A,50,Gavin guarantees the result of everyone gaining $12. No real info gained.,A,51,Hannah's choices were identical. No information gained.
+20,389333.0,coordination1,column,B,50,Emily's selection doesn't matter as both yield same options. No info gained.,A,1,Maria turns down $12 to be able to deny Emily of $12.
+20,439676.0,coordination0,column,A,50,Luke's selections are identical results. No information is gained.,A,58,"Kate choose so that she and Luke both benefit, but this doesn't signify friendship necessarily in my opinion."
+20,492364.0,threat0,column,A,83,Frank takes hit to gains in order to benefit Ryan.,A,100,Ryan maximizes both benefits.
+20,591538.0,threat1,column,B,43,"Megan selects to maximize her benefit, but reduces Geoff's max.",A,50,"Geoff decided to maximize both of their earnings, rationally."
+20,636234.0,threat3,column,B,50,David chooses rationally to maximize his earnings no matter Austin's choice.,B,0,Austin pays $6 to deny David of $6 additional.
+22,90696.0,disjunctive0,column,A,50,"They both get the same amount of money, so this is probably the choice anyone would pick.",A,61,"They chose the one where both people receive 12, but the only other option would result them in getting 0."
+22,179076.0,disjunctive3,column,B,11,Seems like Matt dislikes the other person enough to possibly have them get no money at all.,B,2,"Matt may have disliked the other person so much that he did not want them to get money so bad, that he took the fall as well."
+22,215864.0,singleControl1,row,A,50,"Both choices are virtually the same, so it is hard to tell whether they are friends or not.",B,50,Both choices are the same so it is difficult to tell.
+22,252382.0,singleControl0,row,A,50,Both choices are the same.,A,50,"Both choices are the same, so it doesn't really matter what his choice is."
+22,312578.0,pd0,row,A,92,Olivia seems like she wants to make sure her friend gets the most money possible.,A,35,Gerald does not seem to care about how much money Olivia gets.
+22,348467.0,pd3,column,B,37,"Jacob chooses pretty selfishly, and wants to get the most for himself.",B,50,Rebecca wants to have the best chance to get the most money for herself.
+22,377669.0,coordination1,column,B,50,"Both choices are the same virtually, and can achieve the same outcomes.",A,50,Both choices are the same virtually.
+22,404348.0,coordination0,row,A,50,Both choices are pretty much the same.,A,50,Both choices are the same. They lucked out and picked the same letter.
+22,465954.0,threat3,row,B,80,Maria picked B to give her friend the best chance to earn more money.,B,50,Richmond wanted to maximize his earnings so picked b.
+22,532825.0,threat0,row,A,50,"Hannah wants to maximize her earnings, so she picked A.",A,50,Hannah wants to earn the most she can so she picks A.
+22,561957.0,threat1,row,A,50,William wants to make the most money he can.,B,50,Jack wants the best chance to earn the most he can.
+23,59981.0,coordination1,row,A,85,It is shared evenly if they choose A and none if they choose B,B,2,His choice made sure neighter would get any
+23,87664.0,coordination0,column,A,66,Trying to give equal for both,A,95,They wanted to give each other equal amounts
+23,135387.0,threat0,column,A,75,Chose what would give the other the most payout,A,57,Got most fo rhimself but still gave some to other
+23,177339.0,threat3,row,B,84,Most payout for other person,B,7,He made sure Robert got nothing even if it meant he got less
+23,212271.0,threat1,column,B,43,She wants to get the most for herself,A,53,Made sure they both got some
+23,243187.0,pd0,row,A,86,Equalized payment,A,94,THey both get the same amount
+23,275263.0,pd3,column,B,4,She wants only for herself,B,9,Made sure Olivia got less and she got some
+23,319694.0,singleControl1,row,A,73,Equal for both,B,5,Richmond made sure Sally got nothing
+23,339122.0,singleControl0,column,A,66,Equal for both,A,94,Made sure they both got equal amount
+23,374506.0,disjunctive3,column,B,54,Both would get equal,B,4,"Even at expense at his own payout, he made sure she got nothing"
+23,392842.0,disjunctive0,column,A,93,Makes sure both get 12,A,66,Both get equal
+24,153247.0,coordination1,row,A,100,I think that Sydney is friends with the other player based on the fact that they could both end up with $12.,B,0,If they were friends I would think Kaylee would have chosen A as well.
+24,228784.0,coordination0,column,A,50,I'm not sure if they are friends.  I would think they are because they would both end up with $12.,A,100,They both ended up in the best outcome.
+24,300519.0,disjunctive3,row,B,50,I'm not completely sure if they would be friends.  It could go either way.,B,0,Gerald made a decision resulting in both of them not receiving any money.
+24,425652.0,disjunctive0,column,A,50,"Hannah choose the best option for herself so I""m not sure how that goes with their friendship.",A,100,Rebecca chose in a way that they both receive the money.
+24,521187.0,pd0,row,A,100,They are friends because he makes a choice that results in the other player also receiving money.,A,100,They are friends because they both end up with money.
+24,622249.0,pd3,column,B,2,Zoe seems to have did what was best for her.,B,50,I'm not sure if they are friends or not.  I do know  the choice made it so they had equal amounts.
+24,738711.0,threat3,row,B,50,I think they could be friends but then I think there is a possibility they could not be.  It is hard to tell.,B,50,If they are friends than Richmond is the kindest friend out there.  He ended up with nothing.
+24,797582.0,threat1,row,A,100,I think they could be friends because he chose the most money for the both of them.,B,50,I'm not sure they are friends because Matthew acted very selfishly. 
+24,946368.0,threat0,column,A,100,I think that Jack and Kate are friends and that he wants her to have more.,A,100,I think they are definitely friends and that Jack wanted Kate to have more.
+24,1030213.0,singleControl1,row,A,50,I'm not really sure because the amounts don't change and no matter what she chose it would be the same.,B,0,Based on the choice I would say that they are not friends.
+24,1104288.0,singleControl0,column,A,100,"They are friends because the choice gives them both the same, while the other choice would have left Olivia with nothing.",A,100,I just think they are friends because of Luke's choice.
+25,76678.0,pd3,row,B,6,"If they were friends, she would have choosen a and they could be equal amounts.",B,86,"They have the same amount, not more than the other"
+25,147789.0,pd0,row,A,88,"Equal amounts they are equal, not enemies ",A,88,"they are equal; not enemies, same amount of money"
+25,199959.0,threat0,row,A,100,Luke is very generous - giving more than receiving,A,90,"Luke is generous, giving more away."
+25,271287.0,threat1,row,A,48,could be either way; at least it wasn't zero,B,50,He did what Sally did- gave a little bit
+25,314493.0,threat3,column,B,50,could go either way - at least got something,B,50,did the same thing Lauren did - gave a little
+25,386936.0,coordination1,row,A,87,even steven - the most for both,B,50,Not sure why you would choose that - could be either
+25,420646.0,coordination0,column,A,78,same amount for both - nice,A,77,they are friends - same amt
+25,447662.0,disjunctive0,column,A,50,nice - equal amounts to both,A,83,"yep friends, equal amt to both"
+25,499226.0,disjunctive3,row,B,51,nice equal amounts to both,B,10,well i guess they are enemies - no money for either
+25,548196.0,singleControl1,row,A,51,hard to say - equal amounts to both,B,7,more money to one of them
+25,588567.0,singleControl0,column,A,52,equal amounts - better than 0,A,76,equal amounts better than 0
+26,169771.0,singleControl0,row,A,82,she chose matthew to recieve 6 dollars ,A,74,choose to share equally 
+26,288291.0,singleControl1,row,A,56,sydney could just be nice ,B,43,hannah is not a nice person 
+26,369464.0,threat0,row,A,49,ryan is greedy,A,37,ryan is greedy
+26,452192.0,threat1,row,A,43,Rebecca is greedy also,B,39,emily is greedy also
+26,547274.0,threat3,row,B,36,gerald is greedy ,B,47,franks is nice
+26,643551.0,disjunctive3,row,B,67,Richmond is a good person,B,10,austin is mean
+26,723710.0,disjunctive0,column,A,77,Kaylee is nice,A,100,Olivia is kind and generous
+26,798498.0,pd3,row,B,78,luke is fair,B,87,kate is fair also
+26,879051.0,pd0,column,A,84,Sally is a person who shares,A,91,Gavin like to be fair
+26,1104309.0,coordination1,column,B,47,Jack just choice b  because it was the only way he would gain,A,0,neither wanted the other to gain 
+26,1204609.0,coordination0,row,A,77,he wanted matt to gain,A,79,he wanted both to gain 
+27,45847.0,singleControl0,row,A,69,They both get equal so it seems like she likes him and is kind,A,90,I htink they wanted to get equal amounts so no one lost
+27,91358.0,singleControl1,column,B,35,This one is not equal so i dont think they were friends,A,12,I think he only cared about himself
+27,119584.0,pd0,column,A,89,they are equal so I think they are friends,A,94,I think they are friends becuase they wanted each to get money
+27,156682.0,pd3,column,B,10,I think he was looking for himself,B,10,I htink it was just luck the received equal
+27,186982.0,coordination1,row,A,91,They wanted each other to get money,B,43,Hmm now im not sure. Maybe it was luck
+27,213847.0,coordination0,column,A,80,THey seem like they wanted to be equal,A,99,They wanted each other to get the same amount
+27,239410.0,disjunctive0,row,A,89,I think they wanted each other to get equal,A,94,They each wanted to get equal money
+27,261128.0,disjunctive3,column,B,92,They wanted to give each other same amount,B,94,i think this was a case of bad luck
+27,294070.0,threat0,row,A,62,It seems like he wanted to share but he still wanted more money,A,50,He still wanted to receive the most 
+27,367769.0,threat3,row,B,21,She only cared about herself,B,54,Im not really sure on this one
+27,395709.0,threat1,row,A,53,I think she likes him but still wants to get more money,B,53,I think this was case of bad luck
+28,101141.0,disjunctive3,row,B,0,Sally chose zero.,B,0,Both players received zero.
+28,264833.0,disjunctive0,column,A,100,Both are friends.,A,100,Shows both are friends.
+28,332547.0,pd0,row,A,97,Both are friends,A,100,both get same amount
+28,399021.0,pd3,row,B,21,won't know until William chooses,B,98,both get same amount
+28,497589.0,coordination1,column,B,27,won't know until Hannah chooses,A,0,enemies due to both getting zero
+28,583100.0,coordination0,row,A,99,won't know until Gavin chooses,A,100,Friends due to same amount
+28,665667.0,threat1,column,B,17,both have to choose for accurate results,A,69,they each received money
+28,715467.0,threat0,column,A,73,both have to choose,A,60,both got money
+28,806171.0,threat3,row,B,5,someone is getting zero,B,0,someone was getting zero
+28,896108.0,singleControl0,column,A,73,Sydney needs to choose for analysis,A,100,both got the same
+28,973611.0,singleControl1,row,A,100,makes sure both get the same,B,0,Jack didn't want Olivia to get any moolah
+29,217772.0,pd0,row,A,85,Hannah's choice provides Frank with the opportunity to earn more money than if she had chosen B. She has also given Frank the option to not let Hannah earn any money.,A,96,"Frank chose the option that earned him less money. This was the ""fair"" choice that earned both people the same amount of money. I think this makes it likely that they are friends."
+29,351948.0,pd3,column,B,16,Lauren has protected herself from not earning any money. She may not trust Emily to pick A if she also chose A. ,B,9,I do not think this changes the likely hood of being enemies much. Emily simply chose the option that earned her the most money. 
+29,522317.0,coordination0,row,A,49,I think it is equally likely they are friends or enemies. Both choices present the same possible payouts. ,A,59,I think it is slightly more likely they are friends. If Jack did not like Megan he may be tempted to stop Megan from earning any money out of spite. 
+29,608668.0,coordination1,row,A,50,I think it is equally likely that they are friends or enemies since the possible payouts are the same. ,B,0,Daniel choosing to sacrifice his own earnings to stop Luke from earning any money signals to me they are enemies. 
+29,752403.0,disjunctive3,column,B,61,I think it is more likely that they are friends. Rebecca may trust Gavin to pick A. ,B,0,If they were friends I do not think Gavin would give up $12 so Rebecca would nothing.
+29,862262.0,disjunctive0,row,A,45,I think it is equally likely that they are friends or enemies. William may trust Sydney but also want to make sure they both earn $12. ,A,50,Sydney did not have a meaningful choice to make so I do not think the odds changed. 
+29,993906.0,singleControl0,column,A,91,I think it is more likely they are friends since Kaylee prevented Kate from earning nothing. ,A,92,Kate did not have a meaningful choice so I do not think the odds changed. 
+29,1046590.0,singleControl1,column,B,0,Matthew prevented Geoff from earning any money when his own payouts did not change. ,A,0,Geoff did not have a meaningful choice so the odds do not change. 
+29,1158245.0,threat1,column,B,42,I think it is slightly more likely that they are enemies since Richmond made the more selfish choice. ,A,41,I do not think the odds changed since Matt simply made the choice that earned him more money. 
+29,1275446.0,threat0,column,A,94,I think they are friends because Austin made a choice that earns him less than Gerald with the possibility of earning nothing. ,A,93,I do not think the odds changed because Gerald simply chose the option that earned him the most money. 
+29,1420722.0,threat3,row,B,10,I think it is more likely they are enemies because Jacob chose the option that earns both players less money with the possibility of earning nothing for one of the players. ,B,0,If they were friends Maria may have chosen A and give her friend money. Since she chose B I think they are definitely enemies. 
+30,396662.0,singleControl1,row,A,9,William didn't want Robert to have any money,B,10,William didn't want Robert to have any money
+30,454061.0,singleControl0,column,A,97,They wanted to split the money,A,97,They both wanted to split the money
+30,554406.0,threat0,row,A,68,Emily picked the option that gives them both money,A,95,They seemed to be friends cause Luke voted for Emily to have more money.
+30,630262.0,threat1,row,A,79,Zoe choose the options that gives them both money.,B,63,The both picked an option where they both get money.
+30,704464.0,threat3,row,B,27,"Olivia picked the option where she would receive money, but not Geoff",B,10,"Geoff seeing that Olivia choose B, decided to choose B to try to get money."
+30,765521.0,disjunctive0,column,A,96,Dan choose A cause they both can have the same amount of money.,A,98,Kate saw what Dan did and choose the same.
+30,936289.0,disjunctive3,column,B,78,Matt choose the option where they can both get money,B,3,"Lauren didn't seem to like Matt so much that she didn't want him to have money at all, even at the cost of losing out on money herself."
+30,1181096.0,pd3,column,B,20,Maria choose an option that can lead to Jacob having no money.,B,53,I would say Jacob was nice to split the  money. It didn't make them friends or enemies.
+30,1312055.0,pd0,column,A,85,Matt choose the option that would give them the chance of them both getting money,A,94,"They both choose the option that gave them money,"
+30,1401452.0,coordination0,row,A,81,Rebecca choose the option for them to get money,A,96,Both choose the option to get money
+30,1450938.0,coordination1,column,B,84,Jack choose an option to for them to get money,A,12,Gerald decided to not let him nor Jack get money
+31,155730.0,threat3,row,B,29,She didn't try to maximize the earnings.,B,5,Logan chose to take the profit for himself.
+31,292868.0,threat0,row,A,67,He wanted to maximize the profits for both of them.,A,100,She was selfless and gave Richmond the higher amount.
+31,1006843.0,threat1,row,A,55,They might be friends but he could be just trying to get a higher amount.,B,24,Ryan took the higher payment instead of being altruistic.
+31,1048684.0,coordination1,column,B,51,"Hard to say, she could be hoping that William choose B too.",A,5,They both only cared about maximum profit and not what the other wanted.
+31,1080839.0,coordination0,column,A,54,Its possible that they are friends and want max profit.,A,90,They both chose to benefit each other.
+31,1138393.0,singleControl1,column,B,27,Daniel is in it for himself.,A,82,Matthew gave daniel the bonus so they might be friends.
+31,1161068.0,singleControl0,row,A,71,He is being altruistic.,A,100,They chose to benefit each other.
+31,1185177.0,pd0,row,A,71,He chose the value that would benefit them both.,A,98,They shared the bonus.
+31,1215730.0,pd3,row,B,36,He wants a higher profit for himself.,B,35,He chose to take some money for himself.
+31,1246814.0,disjunctive0,column,A,86,He wanted a higher profit for both of them.,A,99,They shared the highest bonus together.
+31,1297753.0,disjunctive3,row,B,43,"Hard to say, she could be in it for herself.",B,10,"They both wanted a high amount and both ended up getting nothing, they didnt work together."
+32,86798.0,disjunctive0,row,A,100,She chose the option that paid them both.,A,100,They both chose an option that would pay them the highest.
+32,183710.0,disjunctive3,row,B,8,She chose an option that would potentially pay them $0,B,3,"They both chose to not pay the other, even at the expense of them recieving nothing."
+32,257261.0,pd3,column,B,16,She chose the option that pays herself more and Robert nothing,B,55,"Not sure, since he chose the option that still payed them both."
+32,324941.0,pd0,row,A,96,He chose the optionthat would benefit them both the most.,A,100,THey both benefited the highest possible amount.
+32,383773.0,coordination0,column,A,83,The options are equally likely to benefit them or not.,A,85,They both benefited.
+32,430989.0,coordination1,column,B,81,THey can both benefit if Emily chooses correctly.,A,0,"Emily doesn't like Daniel, she chose no money for either of them!"
+32,498302.0,singleControl0,column,A,99,She chose the option to make them both benefit.,A,99,They both benefited from the choice.
+32,566021.0,singleControl1,column,B,7,Rebecca can't benefit from Jacob's choice.,A,0,"If I was Rebecca I would be really mad at Jacob,He made her lose out on money.  "
+32,640501.0,threat1,row,A,97,He picked the better option for them both to benefit.,B,79,Sydney chose the option that benefited her the most but Gerald still made some money.
+32,688357.0,threat0,row,A,80,Matt chose an option that would benefit them both.,A,100,Frank even gave Matt the bigger payout.
+32,792453.0,threat3,column,B,57,He chose the option that would best benefit him but also could benefit Jack.,B,43,This is tough.  Jack picked a choice that didnt' even pay him any money.  I think this is a tense relationship.
+33,59079.0,pd3,column,B,39,Logan had chosen noting for Maria. So it is apparent that Maria is not his friend,B,27,It is clear from both choices that they are not friends.
+33,129012.0,pd0,row,A,73,"Since he chose equally, it is likely that he and Gerald are friends.",A,94,"Both have chosen to share equally, so I am almost convinced that they are friends."
+33,182494.0,singleControl0,row,A,70,"Since the share is equal, they might be friends.",A,87,"Since both have taken the same option of sharing equally, I am convinced that they are friends."
+33,306621.0,singleControl1,column,B,29,"Since Frank left nothing for Richmond, I think they are not friends.",A,50,"Since Richmond decided to share equally but Frank kept all to himself, it is all likelihood that they are neither friends nor enemies. Richmond has a big heart."
+33,354901.0,coordination0,column,A,66,"Since Gavin shared equally, they are probably friends.",A,96,"Since both decided to share, I am convinced that they are friends."
+33,437865.0,coordination1,column,B,50,I am not able to judge in this situation. Probably David is crazy.,A,56,"I think Luke and David might be friends, since both were not greedy. and did justice to their choice."
+33,575412.0,threat1,column,B,38,"Not sure if  they are friends or not, maybe Kate is mean.",A,35,"I think Megan and Kate are not friends.They might not know each other and may not be enemies, but plain strangers who are greedy."
+33,689604.0,threat3,column,B,46,They might or might not be enemies. This decision alone does not give a conclusive evidence.,B,64,"I think Zoe is friend to Austin, because he is so generous"
+33,752414.0,threat0,column,A,87,I thnk Matt is a good friend of William,A,58,"Matt accepted Williams choice, so they might be friends only."
+33,899342.0,disjunctive3,column,B,49,"Since Ryan had the same kind of options, I cannot make a judgement based on his choice alone.",B,17,"Jacob might be crazy, but at the same time he might have enmity towards Ryan, choosing so that Ryan gets nothing even though he also ends up with nothing."
+33,961360.0,disjunctive0,row,A,88,I think Kaylee and Geoff are friends.,A,100,"I am convinced that both Kaylee and Geoff are friends, since both decided on the benefits for each other."
+34,130308.0,coordination0,column,A,57,It's not really clear from this decision whether they are friends or enemies.,A,85,It seems they chose to benefit each other.
+34,185507.0,coordination1,row,A,56,It's not really clear from this decision whether they are friends or enemies.,B,37,It seems they chose to spite each other.
+34,204475.0,singleControl1,row,A,53,It's not really clear from this decision whether they are friends or enemies.,B,54,It's not really clear from this decision whether they are friends or enemies.
+34,226347.0,singleControl0,column,A,55,It's not really clear from this decision whether they are friends or enemies.,A,61,It seems they chose to benefit each other.
+34,249132.0,threat3,column,B,53,It's not really clear from this decision whether they are friends or enemies.,B,57,It's not really clear from this decision whether they are friends or enemies.
+34,264972.0,threat0,column,A,55,It's not really clear from this decision whether they are friends or enemies.,A,53,It's not really clear from this decision whether they are friends or enemies.
+34,281404.0,threat1,row,A,58,It's not really clear from this decision whether they are friends or enemies.,B,54,It's not really clear from this decision whether they are friends or enemies.
+34,290626.0,disjunctive0,column,A,54,It's not really clear from this decision whether they are friends or enemies.,A,56,It's not really clear from this decision whether they are friends or enemies.
+34,316019.0,disjunctive3,column,B,56,It's not really clear from this decision whether they are friends or enemies.,B,36,It looks like they chose to spite each other.
+34,345019.0,pd0,row,A,55,It's not really clear from this decision whether they are friends or enemies.,A,72,It's not really clear from this decision whether they are friends or enemies.
+34,353092.0,pd3,row,B,59,It's not really clear from this decision whether they are friends or enemies.,B,55,It's not really clear from this decision whether they are friends or enemies.
+35,76002.0,singleControl0,column,A,72,Ryan chooses to make the payouts fair.,A,100,Both people chose to keep the payouts fair.
+35,445641.0,singleControl1,row,A,80,Matthew wants both players to receive a payout.,B,32,"If they were friends, Jacob would have chosen to give Matthew at least some money."
+35,596574.0,coordination1,column,B,50,I am not sure about this one.,A,76,"I think Gerald chose to receive $0 as well, because they are friends."
+35,738454.0,coordination0,row,A,79,Maria is choosing to make sure they both receive a payout.,A,100,Both participants choose to make sure the other gets a payout.
+35,794555.0,disjunctive3,column,B,68,Luke wants Jack to receive some money.,B,4,Jack chose this option to be spiteful and make sure that Luke doesn't get anything.
+35,849607.0,disjunctive0,row,A,100,David wants them both to receive some money,A,100,Both players wanted each other to get some money because they are friends.
+35,900882.0,threat3,row,B,0,Gavin wants to get the money and for Sally to get nothing.,B,0,Sally wants to get the money and for Gavin to get nothing.
+35,967517.0,threat0,row,A,24,Zoe wants to receive more money than Kate.,A,57,Kate chose to let Zoe receive double the payout.
+35,1085009.0,threat1,row,A,46,Robert wants to get more of a payout than Matt.,B,32,Matt chose the option that gave him more money than Robert.
+35,1211835.0,pd3,column,B,40,Rebecca wants to receive a payout and wants Hannah to get nothing.,B,47,"Hannah wants the payouts to remain fair, even if Rebecca does not."
+35,1277772.0,pd0,row,A,75,Olivia wants the payouts to be equal.,A,99,Logan also wants to make sure his friend gets an equal payout.
+36,65892.0,coordination1,row,A,51,I can't tell since he can lose or win the same amount.,B,2,niether one got any money
+36,109665.0,coordination0,row,A,51,i cant tell since he can win or lose the same amount of money.,A,93,they both got paid.
+36,148986.0,disjunctive3,column,B,51,i cant tell since he can win or lose the same amount of money.,B,9,neither one got paid. 
+36,169686.0,disjunctive0,row,A,52,i cant tell since he can win or lose the same amount of money.,A,93,they both got paid the money. 
+36,214544.0,singleControl0,row,A,53,i cant tell since he can win or lose the same amount of money.,A,91,they both recieved money.
+36,278250.0,singleControl1,column,B,13,looks like only jack will get paid in this equation.,A,9,jack didnt want the other guy to get paid 
+36,337811.0,threat0,column,A,94,he is ensuring lauren gets paid,A,94,they both got paid
+36,385255.0,threat1,row,A,56,cant tell yet.,B,90,they both ensured the both got paid
+36,436284.0,threat3,column,B,55,cant tell. could go either way.,B,5,only katie got paid.
+36,506127.0,pd0,row,A,54,cant tell just yet,A,93,they both got paid. 
+36,534895.0,pd3,row,B,56,cant really tell just yet. ,B,93,they both equally got paid. 
+37,288155.0,threat0,column,A,68,Matt is generous in that he give the option for Maria to choose the most profitable for her.,A,62,Maria actually gets the most profit while leaving some for Matt.
+37,409145.0,threat3,row,B,35,Geoff's does not willing to leave more profit for Ryan. ,B,22,Ryan pick the one most reward for him and not willing to receive the not reward one. Both not generous.
+37,596416.0,threat1,row,A,63,Richmond don't want to be reward with 0 so he pick the option A so he will get at least some amount. can't really mean they are close friends.,B,55,Emily reward the most so they are not that close friends just strangers.
+37,709201.0,disjunctive3,column,B,41,Frank is forcing Austin to chose A because that will benefit both of them. Likely enemies.,B,0,Austin is not willing to benefit both equally and choose b instead. Super enemies.
+37,803172.0,disjunctive0,row,A,73,"Gerald is good, no matter what both benefit. Likely good friends.",A,71,They are friends. I mean no matter what William picks they both benefit.
+37,893457.0,pd3,column,B,44,Gavin not taking chance because he knew Jacob will pick option b. not friends.,B,59,Jacob is kinda forced to pick b. Not friends. 
+37,962480.0,pd0,column,A,65,Luke is good at taking risk hoping daniel will pick a. Right now is ok friends.,A,79,Daniel is definitely nice to Jacob so they are close friends.
+37,1051310.0,coordination0,row,A,52,No difference in picking which option. Not friend or enemies. ,A,70,Hannah is nice to Logan. Then they are ok friends.
+37,1129499.0,coordination1,row,A,55,Right now can't really tell if friends or not. ,B,0,Definitely enemies. Not willing to profit both. Sacrifice benefit causing other to lose.
+37,1235252.0,singleControl0,row,A,50,No difference in choosing which option. Cant tell is friend or enemy.,A,79,Pretty much they are friends. Not letting Mathew getting no reward. 
+37,1302203.0,singleControl1,row,A,50,Cant tell. Option B is same as option A.,B,12,Rebecca maybe hate kate in that she let Kate getting no reward there's option to get equal reward for both.
+38,156129.0,singleControl0,row,A,85,Sydney shared the money fairly.,A,95,Kate shared the money fairly too.
+38,435438.0,singleControl1,column,B,16,Matt is selfish about Olivia. They can't be friends.,A,26,Olivia must be stupid. They are not friends.
+38,526317.0,pd3,column,B,5,Kaylee is selfish.,B,48,"Jack may be good, but they are not friends."
+38,613292.0,pd0,row,A,87,Gerald shared it equitably.,A,95,Luke shared it equitably too. 
+38,674524.0,threat0,row,A,55,Sally is self-centered.,A,73,Richmond is a good friend.
+38,736787.0,threat3,row,B,77,Frank is selfless. ,B,36,David is selfish.
+38,831202.0,threat1,column,B,39,Gavin is not kind to Ryan.,A,70,Ryan is a good friend. 
+38,890882.0,coordination0,column,A,87,Geoff shared it equitably.,A,94,Rebecca shared it equitably too.
+38,941345.0,coordination1,row,A,81,Hannah is fair to Megan.,B,11,Megan is mean.
+38,985338.0,disjunctive3,row,B,79,Lauren did the right thing.,B,24,Maria is just mean.
+38,1031592.0,disjunctive0,row,A,77,Jacob is fair to Daniel.,A,95,Daniel is fair to Jacob too.
+39,67446.0,disjunctive0,column,A,50,It could equally go either way,A,77,William made sure they were both paid
+39,127798.0,disjunctive3,row,B,62,It could go either way,B,0,He is an enemy because he made sure they both weren't paid
+39,199331.0,coordination1,row,A,71,It's more likely they are friends because they would both be paid.,B,0,She made sure neither was paid
+39,228198.0,coordination0,row,A,84,It's more likely they are friends because they would both be paid.,A,98,They both got a good payout
+39,289739.0,pd0,row,A,99,They are friends because they would both be paid.,A,94,They both got the highest amount that both could get
+39,366042.0,pd3,row,B,24,She doesn't want to maximize the payout,B,23,Austin just made sure he got something
+39,420516.0,threat0,column,A,100,He's willing to let the partner get more money,A,99,He made sure the other got money too
+39,476489.0,threat3,row,B,29,Kaylee isn't trying to get the most for both players,B,0,Lauren caused Kaylee not to get anything
+39,529231.0,threat1,row,A,97,Either option will get both players paid,B,50,Kate made sure to get more money so it's an equal chance
+39,605994.0,singleControl0,row,A,50,Emily's chances are equal either way,A,90,Zoe made sure Emily got paid
+39,645913.0,singleControl1,column,B,0,Jacob doesn't want Jack to get paid,A,0,Jack didn't get paid
+40,113819.0,threat0,row,A,62,She chose the lower reward to help herself and her friend,A,99,Lauren could have gotten 12 but she took 6 and gave Emily 12 so they are likely friends
+40,181893.0,threat1,column,B,35,He chose to benefit himself over the other,A,28,"Matt chose to gain for himself and the other, which you would do regardless of being friends. they're likely not friends"
+40,241952.0,threat3,row,B,30,She didn't choose to benefit either of them as much as she could,B,22,Maria took the money for herself
+40,323523.0,pd0,row,A,82,Robert is watching out for his friend and offering him 8 or 12,A,99,Daniel chose to benefit them both and get 8-8
+40,395226.0,pd3,column,B,16,She didnt trust her partner not to take the full 12 and run so she went with the less risky payout,B,12,he chose what would benefit him most
+40,440886.0,coordination0,column,A,52,"hard to say, the options are the same either way",A,52,"hard to say, anyone would choose 12 over 0"
+40,483468.0,coordination1,row,A,53,"hard to say, the options are equal",B,0,he must have wanted to mess up his partner by choosing 0 for both of them
+40,550895.0,singleControl0,row,A,53,the options are the same,A,66,he didn't have to give luke the $6 but he chose to
+40,591405.0,singleControl1,column,B,0,she didn't gain anything by letting zoe get 0,A,0,zoe didn't have a real choice
+40,671622.0,disjunctive0,row,A,53,"it doesn't matter what sally chooses, logan can still get 12",A,53,of course logan chose 12 instead of 0
+40,732185.0,disjunctive3,row,B,0,megan gave ryan the option of choosing 0 even if he doesn't,B,0,ryan would rather get nothing than megan get something good so they're enemies
+41,100819.0,disjunctive3,row,B,50,"Rebecca is not acting rationally, she should choose A regardless. ",B,0,"Again, it makes 0 sense for the first person to choose B. "
+41,131693.0,disjunctive0,row,A,52,"Gerald is a rational actor, that's all you can determine.",A,49,David's choice did not matter.
+41,167785.0,threat0,column,A,100,He is maximizing Olivia's payout. ,A,100,She took the best option for both of them. 
+41,214120.0,threat3,column,B,0,She is choosing the best option for her regardless of player two's pick. ,B,0,"This was done only to spite the first player, this was not done for their own personal benefit. "
+41,261549.0,threat1,column,B,51,Jack is maximizing his profit regardless of second player's pick. ,A,82,Robert chose the option that gave him the most money.
+41,290281.0,singleControl1,column,B,0,Her payment is still 6$ while forcing the other player to get 0 instead of 6. ,A,0,This player had no choice.
+41,320299.0,singleControl0,row,A,100,This player ensures payment for his partner as opposed to 0. ,A,100,This ensures that they are both paid rather than just the first player.
+41,361760.0,pd3,column,B,16,Maria is ensuring that she will receive a payment as opposed to getting nothing at all. ,B,0,This is spiteful making the first person lose 8 dollars over getting 4. 
+41,405142.0,pd0,row,A,100,This choice helps the second person more than it helps the first. ,A,100,"This ensures they both make money, and this is the highest total payout between the two."
+41,466728.0,coordination1,column,B,50,"It is impossible to determine, these are the same choice.",A,0,"This choice does not make sense, this is done as an enemy. "
+41,486916.0,coordination0,row,A,50,It is impossible to tell.,A,50,"It is impossible to tell, this is the logical choice. "
+42,75259.0,threat0,row,A,97,I don't think they are enemies since they got the same amount.,A,42,I think that Jack likes the idea of getting more money than she does
+42,131304.0,threat1,column,B,69,I think that this was just by chance,A,68,He still wanted to be fair to her and let her have something.
+42,186351.0,threat3,row,B,25,Since both are guys they are both competivte,B,12,I think it comes down to competition
+42,249911.0,coordination1,column,B,100,They wanted it to be equal. He thinks they both deserve the same.,A,100,It comes down to be fair and no harsh feelings toward one another
+42,287329.0,coordination0,column,A,100,She wanted everyone to start off on the same amount ,A,100,She weighed her options and how it would benefit her or not
+42,332570.0,pd3,row,B,30,I think that its hard to tell if she wants to keep it all or not,B,90,She decided to be fair and not be a mean person.
+42,392354.0,pd0,row,A,98,He believes they are friends and have both earned their fair share.,A,100,Its about being fair and both recieving the same amount so they can continue to be friends.
+42,436958.0,singleControl0,column,A,100,She likes him and wants to make sure things are equal.,A,100,She liked that they could both have the same amount and not be mad at one another if that was the case.
+42,475569.0,singleControl1,column,B,100,She is a woman so has sympthay,A,61,She thought she was entitled to it
+42,538666.0,disjunctive0,column,A,97,She liked to remain friends with Kaylee,A,100,She knew she made the right decison. I would of done the same thing.
+42,564068.0,disjunctive3,column,B,100,Having equal is better,B,100,Nobody wins or loses
+43,72484.0,disjunctive0,column,A,52,They both get the same no matter what,A,52,they both get the same either way
+43,107865.0,disjunctive3,row,B,52,they both get the sme either way,B,53,they both get the same either way
+43,178223.0,threat0,row,A,53,maria just chose the one tht would allow one of the to get more either way,A,74,jacob chose the one that allowed her to get more
+43,233142.0,threat1,row,A,62,matt chose the better option for both people,B,63,"gavin chose what was best for him, anyone would"
+43,281165.0,threat3,row,B,55,hannah is stupid,B,58,"kate chose what was best for her, anyone would"
+43,343186.0,singleControl1,row,A,57,there only two real choices here,B,28,seems like they dont like the other player
+43,387744.0,singleControl0,column,A,62,sensible choice,A,62,fair choice no loss
+43,446751.0,coordination1,column,B,60,"only two real results here, sensible choice",A,11,william must be an idiot
+43,510236.0,coordination0,column,A,52,"only two real choices, sensible choice",A,66,would of hurt self as much as other player
+43,575696.0,pd3,column,B,56,sensible choice,B,54,sensible choice
+43,614847.0,pd0,row,A,59,sensible,A,65,very fair
+44,127443.0,pd0,column,A,100,OPtion B could leave Luke without money,A,100,Luke chose so that they both received money
+44,337169.0,pd3,column,B,46,GErald appears to be looking out more for himself,B,35,"Sally chose so that she would still receive something, out of her choices"
+44,483131.0,disjunctive3,column,B,57,"Either way, they will receive the same amount",B,8,"Matt could have chosen so that they both received equal amounts of money, but chose instead so that they received none"
+44,751945.0,disjunctive0,row,A,100,"Either way, they will both recieve the same amount of money",A,49,"Ryan could have been looking out for both of them in his choice and assuring that they would both receive money, or he could have just been assuring that there was no opportunity for Frank to choose $0 for both of them. "
+44,830067.0,singleControl1,row,A,61,"In both of these options, William will receive money",B,31,William chose so that Daniel did not get money.
+44,942340.0,singleControl0,column,A,92,Lauren chose assuring both would get money,A,92,"Both were able to get money from these choices, assured by Lauren's inital choice"
+44,1082689.0,coordination1,row,A,49,It isn't easy to tell from this as the choise are exactly the same either way,B,38,Zoe choose for them both to not receive money instead of them both receiving money
+44,1256563.0,coordination0,column,A,49,"Either way, difficult to make a call from the first choice as the choices are the same ",A,52,"Austin could have chosen to assure that he received money, not caring that Sydney would also, but they aso could be friends."
+44,1317567.0,threat0,column,A,58,She has chosen the options with the larger payouts for Geoff,A,92,GEoff chose the largest payouts for both of them
+44,1417478.0,threat1,row,A,60,She chooses the larger payouts for them both,B,50,Richmond chooses the larger payout for himself. This doesn't really mean they are enemies.
+44,1502003.0,threat3,column,B,51,"He chose so that he would definitely have a payout, but that doesn't mean they are enemies",B,25,Megan chose no money to assure Gavin received less
+46,267567.0,threat0,column,A,62,Most likely they don't know each other but hannah she gives them both a chance to earn so she was reasonable.,A,43,They are reasonable and competent so they respect each others competence 
+46,331927.0,threat3,row,B,27,Frank wants money only for himself.,B,36,Matt was competent enough to choose B.
+46,514402.0,threat1,row,A,59,lauren is willing to help the other win.,B,64,Both made reasonable choices to ensure they both win. 
+46,625955.0,coordination1,column,B,50,Either A or B gives the same chances.,A,40,Logan decides they both earn nothing.
+46,669459.0,coordination0,column,A,50,Chances of earning money are the same for A or B.,A,56,William wanted them both to earn. 
+46,716532.0,singleControl1,column,B,27,Kaylee wanted the chance for her partner to lose. ,A,65,Megan decided to not earn and give it to kaylee.
+46,753510.0,singleControl0,row,A,50,Both options are the same...,A,66,Robert wanted them both to earn.
+46,781216.0,disjunctive0,column,A,64,Gerald wanted both to win.,A,62,Either choice would have had the same outcome...
+46,864119.0,disjunctive3,row,B,35,Matt chose a choice with the option for them both to lose. ,B,26,They both wanted the other to not earn.
+46,966493.0,pd0,column,A,51,Emily might have wanted the chance to earn the most.,A,60,Jack decided to turn down the most so they can both earn.
+46,1032489.0,pd3,column,B,50,Luke just wanted to make sure he earned too.,B,48,Olivia just wanted to earn too.
+47,92875.0,pd3,column,B,27,"By choosing B, Robert would not get anything",B,84,Robert allowed for both teams to be compensated evenly
+47,196169.0,pd0,column,A,91,Frank choosing A allows for both to be compensated evenly,A,98,$8 for each! friends
+47,368103.0,threat3,column,B,35,"Not necessarily enemies but with these options, Austin will be compensated more",B,2,Jack dislikes Austin to the extent that he'd rather receive nothing then allow Austin to receive $12
+47,505870.0,threat1,column,B,49,We will not know until Hannah chooses.  there is no option to allow equal payment to both,A,50,"Still not quite sure. With Hannah's choice, it doesn't necessarily mean that she is friends with David. She could have chosen to make some money rather than no money"
+47,604859.0,threat0,row,A,49,They are not necessarily friends  This option is the only one that ensures Matt will make money,A,96,Williams choice allowed Matt to take home more money
+47,669773.0,coordination0,column,A,50,Impossible to tell.  Both will receive the same payout,A,50,Impossible to tell.  Both will receive the same payout
+47,720429.0,coordination1,column,B,50,Impossible to tell.  Both will receive the same payout,A,22,"Logan prefers Kaylee receive $0 and in turn, he receive's $0. Not friends"
+47,802639.0,singleControl0,row,A,50,Daniel would have the same chances of payout from both options.  It is up to Maria to choose,A,100,Maria chose to give Daniel $6 versus $0. Definetly friends
+47,852696.0,singleControl1,row,A,50,It will all be based on Rebecca's decision,B,0,Rebecca could have given Geoff $6 with no loss to herself.  She chose not to.  Not friends
+47,952523.0,disjunctive3,row,B,40,This is interesting.  Not quite sure of the reasoning behind this.  Does she hate Gerald that much?,B,1,They would prefer each other to get $0 rather than each take $12. Wow!
+47,1020883.0,disjunctive0,row,A,48,Impossible to tell.  Luke may just want to take no chances at not receiving money. Both options will win him $12,A,50,Impossible to tell.  Either option won Luke the same amount of money.
+48,175960.0,pd3,column,B,24,"Sally chose the option where she had the most to gain, but more importantly the least to lose. She didn't trust that if she picked A Matthew would also pick A.",B,12,They both wanted to gain without trusting each other.
+48,257568.0,pd0,column,A,100,Robert trusts Rebecca to choose the option they both stand to gain the most (in total) from.,A,100,Rebecca opted to share the prize with Robert rather than taking it all for herself.
+48,357583.0,coordination0,row,A,50,It could go either way as the outcome was the same no matter what Megan picked.,A,53,They might not be friends but Matt doesn't hate Megan enough that he's willing to lose out on money to make sure she doesn't get any.
+48,410703.0,coordination1,row,A,50,It doesn't matter what Jacob chose because both options are the same. Inconclusive.,B,0,Emily would rather get no money than let Jacob have any.
+48,513015.0,threat1,row,A,52,"Maria had the least to lose by choosing A, so it's not particularly indicative of her friendship.",B,45,"Gerald opted for personal gain, so at the very least he cares more for himself than Maria."
+48,620646.0,threat3,row,B,13,"Ryan either isn't very smart/good with math, or he really wants to make sure Logan makes as little as possible, even if that means he makes nothing.",B,0,Logan picked the best self-serving option in the situation.
+48,685662.0,threat0,row,A,60,"At the very least, Zoe likes Gavin enough to not risk either of them getting $0.",A,100,Gavin ensured that Zoe got more than he did so they're likely friends.
+48,766254.0,singleControl0,column,A,100,"No matter what, Olivia gets $6, so they must be friends if she wants to ensure Daniel gets $6 too.",A,100,Daniel's options were both the same so I'm relying on Olivia's actions for the judgement.
+48,824877.0,singleControl1,row,A,51,It could go either way as there was no difference in Jack's choices.,B,0,Austin gets $6 regardless so he must dislike Jack to ensure Jack got $0.
+48,938158.0,disjunctive0,column,A,54,"Sydney doesn't trust that David wouldn't pick $0 so she gave him no choice. Granted, that also means she doesn't hate him enough to try for $0",A,54,David didn't really have a difference in options.
+48,978701.0,disjunctive3,column,B,94,Kate trusts that Kaylee will pick the outcome best for them both,B,0,Ouch. Kaylee would rather get $0 than see Kate have any.
+51,50847.0,disjunctive3,column,B,100,they shared their money,B,0,they didn't share this time
+51,94703.0,disjunctive0,row,A,86,she gave up the money but could still get screwed,A,100,they did share their money.
+51,147718.0,coordination1,row,A,83,because he split the money.,B,0,he would rather take nothing and screw the other guy.
+51,246325.0,coordination0,row,A,100,same name and gave up the money.,A,100,shared their money
+51,287709.0,threat1,row,A,100,gave more than he took,B,23,she took advantage.
+51,330380.0,threat3,row,B,18,looks like he's taking the money to run.,B,0,she stole his money
+51,377171.0,threat0,row,A,70,he is being kind,A,100,he gave more despite going last
+51,751374.0,singleControl1,row,A,51,just being fair not giving extra,B,3,she took it all
+51,783205.0,singleControl0,column,A,78,geoff is nice,A,100,emily is nice also
+51,841148.0,pd3,column,B,0,Greedy Sally,B,74,WIlliam is still nice a stand-up guy
+51,866180.0,pd0,row,A,100,matt is a fair fellow,A,100,frank is also a fair fellow
+52,140774.0,coordination1,row,A,10,"They did not give each other anything, so I would say they are definitely not friends.
+",B,99,They both chose to not receive any money.
+52,204306.0,coordination0,column,A,94,They both chose to not receive any money,A,99,They both chose to receive the same amount of money
+52,243878.0,disjunctive3,column,B,98,They both received the same amount of money,B,52,Neither received any money
+52,284108.0,disjunctive0,column,A,91,They both received money,A,99,They both received the same amount
+52,366199.0,singleControl0,row,A,90,Austin gave his friend more money,A,97,They both received the same amount
+52,406858.0,singleControl1,column,B,4,Frank did not receive any money,A,97,Frank let Hannah have the money
+52,458365.0,threat0,column,A,91,They both received money,A,26,Geoff chose to receive more money
+52,497712.0,threat1,column,B,89,Olivia received more money,A,35,Olivia received more money
+52,537237.0,threat3,column,B,21,Robert received more money,B,93,Robert received more money
+52,608871.0,pd3,column,B,27,Kaylee keeps the most money,B,75,Chose to receive the same amount of money
+52,650295.0,pd0,column,A,71,Gavin chose to keep the money equal,A,88,Jacob chose to keep the money equal
+53,142067.0,threat1,column,B,43,he chose what would give her the least,A,53,There is no even way for this to go. Someone has to get less. they probably are friends but if he picks A he may get nothing
+53,221092.0,threat3,column,B,50,there is not way to tell based on this. Someone always looses. ,B,33,there is not way to tell based on this. Someone always looses. 
+53,288013.0,threat0,row,A,51,She picked the one that would always give her something as well as the other. ,A,50,there is not way to tell based on this. Someone always looses. 
+53,352427.0,singleControl0,column,A,85,This option is going to make them both get the same. you would not do this for an enemy,A,99,They both got the same. you would not do this for an enemy. You would make sure they loose
+53,399741.0,singleControl1,column,B,1,this choose is always gong to result in the other gettting nothing,A,1,Someone got nothing and you would not do that to a friend
+53,439712.0,coordination0,row,A,62,I think he is trying to make it even eithr way. ,A,100,They both came out on top. 
+53,468353.0,coordination1,column,B,79,This option will make them both even either way,A,87,Even though they lost the were even
+53,502059.0,disjunctive0,column,A,100,This choice should benefit them both,A,100,"
+They both picked to help each other"
+53,542414.0,disjunctive3,row,B,36,This option is the only one that can give nothing to the other,B,1,This didn't have to go this way. They both could have won
+53,644751.0,pd0,row,A,51,could be either based on this optioin,A,78,If jacob had chosen B lauren would have lost but he did not. He picked so they both won the same. 
+53,683205.0,pd3,column,B,32,The other option would help the other person out ,B,53,It was even so it could be either way
+54,115017.0,coordination1,row,A,100,he chose the payout that gives austin the maximum money also,B,53,My guess would be Austin made a mistake because neither person got money
+54,184499.0,coordination0,column,A,99,Megan picked the payment that gave them both the max money,A,100,olivia followed megan by securing the max money for both of them
+54,247198.0,pd0,row,A,96,David made sure they both received money,A,100,Gerald followed David by taking care of both of them instead of taking more money for himself
+54,331115.0,pd3,row,B,19,Kaylee is looking out for herself first and stiffing Sally,B,13,Sally took the option so she would get paid also 
+54,419313.0,threat3,row,B,100,Frank took less money so Sydney could have more,B,0,Sydney totally screwed Frank leaving him with nothing. 
+54,506951.0,threat0,row,A,77,William made it so rebecca would receive something,A,100,Rebecca made sure william got the max money
+54,572223.0,threat1,row,A,78,Emily made it so hannah will get some money,B,37,Hannah took the lion share of the funds for herself
+54,775634.0,singleControl1,column,B,2,Jacob decided not to share with zoe,A,51,Zoe made sure she got paid but also Jacob
+54,843702.0,singleControl0,column,A,100,Matt made it so ryan can get equal payment,A,99,Ryan followed suit and the pair each got the same payment. 
+54,941133.0,disjunctive3,row,B,42,Logan left the door open for the pair to get nothing ,B,0,Maria chose to accept nothing so logan would get nothing 
+54,1046519.0,disjunctive0,row,A,100,Lauren chose so the pair would both get dollars,A,100,Richmond went along with Lauren so they both got the maximum money
+55,147804.0,pd3,row,B,0,Judging by Lauren's choice I'd say they were enemies.,B,100,They both ended up with the same amount.
+55,216691.0,pd0,row,A,0,Ryan's looking to keep all the money.,A,2,Kaylee surprised Ryan I think.
+55,269435.0,disjunctive3,column,B,100,Luke is hoping Sally makes a similar decision.,B,100,Luke was wrong.
+55,337091.0,disjunctive0,column,A,100,Gavin wants them have a big payout.,A,100,Sydney figured Gavin would make the same choice.
+55,413811.0,singleControl0,row,A,100,David wants them both to make the same amount.,A,100,Matt trusted David's choice.
+55,461514.0,singleControl1,row,A,100,William wants them to make the same amount.,B,0,Kate wanted all the money.
+55,514010.0,coordination0,column,A,99,Austin wants them to make equal amounts.,A,100,Gerald trusted his friend's judgement.
+55,569971.0,coordination1,column,B,100,I think Emily is looking out for her friend.,A,0,Robert didn't want either of them to benefit.
+55,635971.0,threat0,column,A,100,Zoe is giving them an equal chance of making something.,A,100,Zoe let Geoff make the biggest amount.
+55,745083.0,threat3,column,B,0,Richmond wants to make the most no matter what.,B,0,Richmond made sure Frank didn't make anything.
+55,833323.0,threat1,row,A,100,Matthew wants them both to make something.,B,100,Mathew's choice indicated that he wanted Olivia to decide who made the most.
+56,55552.0,pd0,column,A,100,Megan gets money either way but he might not get any,A,100,She was as fair as he was so they both got money
+56,138420.0,pd3,column,B,24,She picked what gives him the lowest amount,B,39,I still don't think they are friends since she chose what only really benefits herself
+56,197740.0,disjunctive0,column,A,55,It's hard to tell since it's the best option for both of them to choose,A,61,Either was a good option for both to have same amount of money so it's difficult to tell if friends or enemies.
+56,264884.0,disjunctive3,row,B,40,They might not be friends since gavin seems to be testing logan,B,0,logan made sure gavin didn't get any money even if he lost some too
+56,310955.0,threat0,column,A,40,She chose what was best for herself,A,47,He chose what gave him at least a little so I'm not sure they are friends.
+56,366156.0,threat1,column,B,41,He made sure to get what was best for himself and not her,A,43,She made the only choice she could to still get some money
+56,401132.0,threat3,column,B,29,Lauren only cared about herself,B,1,I think zoe punished lauren by making sure it was at least less money
+56,439952.0,coordination1,row,A,52,Hard to tell since each could have same outcome,B,10,sydney chose what punished kate
+56,474844.0,coordination0,column,A,60,This one could go either way,A,59,Possible they are friends but could be just making sure they got money
+56,533208.0,singleControl0,row,A,49,Both have same outcomes,A,56,Possibly friends since he didn't punish her
+56,568841.0,singleControl1,column,B,0,Matthew made sure daniel would get nothing,A,0,daniel was getting nothing no matter what
+58,80071.0,threat0,row,A,34,She's just trying to maximize her own profits,A,82,Gavin helped her out when he could've won more by choosing option B
+58,149761.0,threat1,row,A,36,He's trying to maximize his profits,B,33,Sally could've chose option A to help Luke out more but didn't
+58,196267.0,threat3,row,B,18,He's trying to maximize his profits,B,15,She's just trying to maximize her own profits
+58,227919.0,singleControl0,row,A,23,He's trying to maximize his profits,A,87,He wanted them both to win money
+58,279346.0,singleControl1,row,A,36,He's just trying to maximize his profits,B,13,She could've helped Frank out and still won the same amount but chose not to
+58,333129.0,disjunctive0,column,A,50,She just wanted to maximize her profit,A,50,It's hard to tell because both options yield the same reward
+58,375931.0,disjunctive3,row,B,41,He's just trying to maximize his profits,B,1,He didn't want anyone to win any money
+58,417297.0,coordination0,row,A,32,She's just trying to maximize his profits,A,81,She's just trying to maximize her profits and also helped out ZOE
+58,454181.0,coordination1,row,A,44,She's just trying to maximize her profits,B,7,Matt didn't want Sydney to win any money
+58,502559.0,pd3,row,B,21,He's just trying to maximize his profits,B,25,She chose the option that reduced Gerald's reward
+58,537025.0,pd0,row,A,82,He wants them both to win money,A,86,She wanted them both to win money
+60,303775.0,disjunctive3,row,B,0,They are most likely enemies since Jacob chose the only possibility that had any chance that Rebecca would get no reward.,B,0,Rebecca was willing to give up a reward to make sure Jacob did not get one too.
+60,435223.0,disjunctive0,row,A,58,Richmond picked the choice were he is guaranteed to have a reward. He could just be looking out for himself.,A,51,The outcome was the same regardless of Robert's choice so there isn't any way to know if they are friends or enemies.
+60,559509.0,threat3,column,B,36,Maria picked the outcome where she has the chance of getting the largest reward. They may or may not be enemies. Maria could simply just be selfish.,B,0,Kaylee was willing to give up a reward entirely to reduce Maria's reward.
+60,667309.0,threat1,row,A,50,No way to tell for sure. Austin could just be picking the option that will net them the highest rewards.,B,50,No way to tell. Gerald could just be looking out for himself. It doesn't mean they are enemies.
+60,796934.0,threat0,column,A,36,"Matthew picked the choice that will gain him the highest reward. He certainly isn't looking out for Kate. However, it doesn't guarantee they are enemies.",A,48,Kate picked the choice that was best for herself. It doesn't give any indication if they are friends or enemies.
+60,876397.0,pd0,row,A,100,Sally's choice will net Megan the highest rewards. She is also trusting Megan not to screw her over.,A,100,Megan chose to share the money evenly instead of being selfish. They are definitely friends.
+60,1008040.0,pd3,column,B,0,If Ryan trusted Gavin he would have chose A. He definitely doesn't trust him.,B,48,Gavin chose the best option for him. It doesn't mean they are enemies but they definitely don't seem like friends.
+60,1114891.0,singleControl0,column,A,100,Matt could have chose B and assured himself of the same reward as A and made sure Lauren didn't get a reward at all. By insuring they both get a reward they are definitely friends.,A,100,Matt could have chose to screw Lauren over instead of making sure they got the same reward. They are friends.
+60,1194928.0,singleControl1,row,A,50,No way to tell since both options have the same result.,B,0,Frank chose to make sure Geoff didn't get $6 too so they are enemies. He could have chosen them both to get $6. 
+60,1309848.0,coordination1,column,B,49,No way to know since both choices are essentially the same.,A,0,Zoe chose to sacrifice a $12 reward to make sure Logan did get anything. It was very mean.
+60,1361576.0,coordination0,row,A,50,No way to tell since both are the same.,A,58,No way to know for sure if Olivia was looking out for herself or both of them.
+62,204893.0,singleControl1,row,A,49,Jack's outcome would be 6 in all scenarios so Hannah does not have the option to make a hostile move. She predictably chooses the best one for her which also happens to be equal to Jack's payout and her motive cannot be determined.,B,3,"Since Jack would receive 6 no matter what, he could only choose a result that gave Hannah 0 if he wished to be harmful."
+62,317748.0,singleControl0,column,A,61,"Zoe could have chosen to be hostile to Richmond and give 0, but did not. This demonstrates that they are probably not enemies, but does not prove they are friends.",A,63,They are defenitely not enemies because no hostile choice was made.
+62,393015.0,coordination0,column,A,50,Cannot be determined with equal results for both.,A,59,Both players could have been making choices that resulted in their best interests.
+62,494725.0,coordination1,column,B,50,Not enough information or variance in choices,A,3,Daniel gave up his own payout to ensure that Emily got 0
+62,594387.0,disjunctive3,row,B,20,"Option A would eliminate the possibility of Austin or anyone receiving 0, but he chose B",B,4,Austin forfeited his payout to ensure that Jacob received nothing.
+62,664436.0,disjunctive0,column,A,49,Not enough information or variance in options,A,50,Players could simply be looking out for their own best interests and receiving maximum. No intentional hostility shown.
+62,768690.0,threat1,column,B,50,This option would be in Williams best interests. Does not prove any definitive feelings towards Olivia.,A,50,This was the best that Olivia could do for herself. 
+62,875209.0,threat3,column,B,50,This is the logical choice for maximizing his payout. Relationship cannot be determined.,B,4,Maria forfeited her own payout to ensure the outcome that would hurt Geoff the most.
+62,957565.0,threat0,row,A,50,This choice would maximize his payout. ,A,99,Sally chose a lower payout to give Gerald a higher one.
+62,1043345.0,pd3,column,B,49,Kaylee appears to just want to maximize her payout.,B,96,Logan opted for a lower payout to ensure that Kaylee received something.
+62,1114507.0,pd0,column,A,97,David appears to be looking out for Kate's best outcome rather than his own.,A,98,Both sacrificed to ensure equal outcomes.
+63,71980.0,disjunctive0,column,A,73,"If Luke was an enemy, Gavin might want him to have no money at all.",A,95,Luke would choose B if he wanted Gavin to not have any money.
+63,115211.0,disjunctive3,row,B,10,Jacob wants Sally to have no money at all.,B,1,"Sally also wants Jacob not to have money, so they are definitely enemies."
+63,194765.0,threat1,column,B,41,Daniel might or might not be enemies with Kate because he might've chosen B just to get a higher payout for himself.,A,66,"Kate might've chosen A to get more money, but it also benefited Daniel."
+63,249552.0,threat3,column,B,42,"Matthew might have chosen B to get more money, not necessarily for David to get less money.",B,9,David wanted Matthew to get less money so much that he sacrificed his own gain.
+63,299431.0,threat0,column,A,94,"Geoff wants Austin to have more money so they must be friends.
+",A,99,They both wanted each other to have more money.
+63,343514.0,singleControl0,row,A,51,Sydney's options cannot be judged because they are the same.,A,100,Zoe gives Sydney money instead of no money.
+63,379335.0,singleControl1,column,B,2,Logan wants Gerald to have no money at all.,A,48,Gerald has the same choice either way so it is difficult to judge.
+63,430595.0,coordination1,row,A,52,Can't tell because both choices are equal.,B,51,Can't tell because both choices are equal.
+63,498744.0,coordination0,row,A,51,Both choices are equal.,A,66,Jack wanted them both to get money.
+63,563258.0,pd3,row,B,40,Ryan might want more money for himself or want Rebecca to have less.,B,51,Rebecca might want to have some money herself even though Ryan has less.
+63,620557.0,pd0,row,A,84,Olivia wants Lauren to have the possibility of getting more money.,A,98,Lauren was willing to get less money for Olivia to get some money.
+64,90583.0,singleControl0,row,A,100,Matthew split the money with Sydney.,A,100,Sydney split the money with Matthew.
+64,188762.0,singleControl1,row,A,100,Austin split the money with Jacob.,B,0,Jacob did not give Austin any money.
+64,264710.0,disjunctive3,row,B,100,Kate split the money with David.,B,50,"David did not give Kate any money, but also took none himself."
+64,311982.0,disjunctive0,column,A,100,Zoe split the money with Gavin.,A,100,Gavin split the money with Zoe.
+64,410753.0,coordination1,row,A,100,Daniel chose to receive the same amount of money as William.,B,50,"William did not give Daniel any money, but also did not receive any."
+64,489031.0,coordination0,column,A,100,Kaylee split the money with Olivia.,A,100,"Olivia split the money with Kaylee, making them friends."
+64,602502.0,threat3,row,B,76,"Robert split with Rebecca, but he could have gotten more for each of them.",B,0,Rebecca is not Robert's friend because she gave him no money.
+64,723622.0,threat1,column,B,71,"Jack gave Matt some money, but kept more for himself.",A,100,Matt is a great friend because he awarded more money than he received.
+64,794751.0,threat0,column,A,100,Geoff gave Hannah more money.,A,71,"Hannah gave Geoff money, but not as much."
+64,890478.0,pd3,column,B,29,Gerald kept way more money for himself.,B,100,Richmond evenly split with Gerald.
+64,942198.0,pd0,row,A,28,Megan kept way more money than Emily received.,A,100,Emily evenly split with Megan.
+65,119552.0,threat0,row,A,90,she chose in a way they both benefit the mnost,A,100,he chose to give her more
+65,198748.0,threat1,column,B,92,he chose the most money option,A,100,she choose to give him more 
+65,252634.0,threat3,row,B,1,he chose the least money option,B,0,he chose to take the money and not give any
+65,318815.0,coordination0,column,A,100,she choose the best money option,A,100,she choose to give them both equal money
+65,374898.0,coordination1,row,A,100,she choose the best option for them,B,0,she choose to keep either of them from getting money
+65,434059.0,disjunctive3,column,B,100,she choose the best money option,B,0,he choose to keep them from getting money
+65,477340.0,disjunctive0,column,A,100,he choose the best option to get paid,A,100,he choose the best option to get paid
+65,503814.0,singleControl0,row,A,100,he choose the best option to get paid,A,100,he choose the best option to get paid
+65,544440.0,singleControl1,row,A,100,he choose the best option to get paid,B,0,she chose to get money and shut him out
+65,729892.0,pd3,column,B,0,he choose the least profiable option for Frank,B,18,he choose the best option for himself to make some money
+65,833875.0,pd0,row,A,87,he choose the best option for them to get the most money,A,100,he chose to take less so they both got some money instead of taking more
+68,96133.0,coordination1,column,B,84,kaylee could have chosen a which would have given her a chance at $12 but she chose b which gave david the chance at $12,A,100,they both chose to give to each other
+68,161114.0,coordination0,row,A,50,cant really tell yet,A,89,if they were enemies then jacob wouldnt have chosen to give ti matthew
+68,214273.0,pd0,column,A,95,he chose to give them both over only himself,A,100,they both aimed to help each other
+68,284749.0,pd3,column,B,37,slight chance they are enemies rather then friends but its not certain yet,B,73,an enemy wouldnt have split the money as evenly 
+68,375767.0,disjunctive3,row,B,4,he would rather they both have 0 then give to his enemy ,B,0,they both dont want tohelp each other out so they would rather have nothing
+68,454783.0,disjunctive0,row,A,83,leaning friends beacuse both are the same ammounts ,A,98,they both chose the best option for each other
+68,569878.0,threat0,row,A,50,could be either at this point and maria wants the most money ,A,82,leaning friends as gavin could have gone for b and got more for himself 
+68,684069.0,threat3,row,B,10,only an enemy would give 0 ,B,6,yup richard saw that geoff chose b and decided to take it all for hmself
+68,867622.0,threat1,row,A,59,COULD BE EITHER TO EARLY TO TELL,B,9,if they were friends then sally seeing emilys choice would have backed her up there for enemies 
+68,987249.0,singleControl1,column,B,18,he could have chosen for both of them so based on his choise he dosnt want matt getting anything therefore enemies,A,39,maybe not complete enemies but just dislike.
+68,1029890.0,singleControl0,column,A,88,trying to make it fair so friends,A,100,they were trying to make it fair for each other
+69,70323.0,disjunctive3,row,B,0,If Lauren chose B then Matt doesn't get any money.,B,0,"The same as before, it means that Matt doesn't get any money if he chooses B."
+69,100583.0,disjunctive0,column,A,94,It allows both players a chance to make $12/,A,100,Both players received the highest amount possible.
+69,177456.0,threat3,row,B,8,William receives 0 if she selects B,B,0,He knew what Maria picked and picked one that didn't give her any money
+69,227648.0,threat0,row,A,94,A allows a higher payout for both players.,A,90,"The payout was good for both of them, and Austin knew what Logan had chosen but didn't make him receive $0"
+69,290713.0,threat1,row,A,100,He chose options with higher payouts.,B,52,"Rebecca chose the lower payout for Gerald, and the higher one for herself, but not a payout that was malicious."
+69,433144.0,coordination0,row,A,63,Option A provides both players with a high payout.,A,100,She chose an option that gave them both a high payout 
+69,461187.0,coordination1,row,A,77,A provides a high payout for both players.,B,0,He knew what she picked and sacrificed $12 to keep her from having any.
+69,494618.0,pd0,row,A,79,He could have chosen B and maybe earned more.,A,100,Richmond could have chosen B and given Gavin 0 and himself $12
+69,584950.0,pd3,row,B,51,It's hard to tell. Kate could be just trying to get the $12.,B,100,She could have chosen something and given Kate no payout and herself a higher payout.
+69,659155.0,singleControl1,row,A,100,She is risking getting nothing if the other player chooses B,B,0,"He picked the one that gave her nothing, when he could have given them both even amounts."
+69,701267.0,singleControl0,column,A,53,"It's hard to tell, because the amounts are the same. ",A,81,He could have chosen something and given her $0.
+72,115417.0,threat3,column,B,21,Sydney gets a lower payout with option b,B,95,Sydney was more concerned with Gavin's payout than her own
+72,199357.0,threat0,column,A,95,Megan wanted to make sure Olivia received some kind of payout,A,84,Olivia wanted Megan to get a payout
+72,292046.0,threat1,row,A,100,Logan is looking out for Lauren,B,31,Lauren considered herself more than Logan
+72,352500.0,singleControl1,row,A,50,It makes no difference in relationship to Zoe,B,3,Zoe did not consider Frank
+72,416547.0,singleControl0,column,A,96,Rebecca thought of Ryan,A,50,Ryan decision had no effect on Rebecca
+72,469204.0,coordination0,column,A,50,Lukes decision is neutral,A,98,Jacob helped Luke
+72,532930.0,coordination1,row,A,50,This is a draw,B,6,Hannah is mad at Matt
+72,578214.0,disjunctive0,column,A,97,Kate is being generous,A,54,This is a neutral outcome
+72,637337.0,disjunctive3,row,B,25,Maria is unconcerned with Williams outcome,B,4,William is getting revenge
+72,732091.0,pd3,row,B,0,Emily is limiting Matthew's earnings,B,56,Mathew is thoughtful
+72,813773.0,pd0,column,A,100,Matthew wants a good payout for Sally,A,100,Sally thought of Austin's earnings
+73,78138.0,singleControl0,column,A,100,"They both chose the option that benefits them both, rather than having one receive something and the other not.",A,99,They both chose the one that would get them money. So they're probably friends.
+73,191392.0,singleControl1,column,B,0,"Logan is a jerk, clearly doesn't like Daniel. There's no reason he couldn't have chosen the other one, both would result in the same payout for him.",A,43,"I'm very confused, why? Why not choose the option to get money, why didn't he do that, or choose to screw over Logan like Logan screwed him over."
+73,281831.0,pd0,row,A,78,"Gavin's chill and chose the option that got them both the most money they both could have, even though he could have chosen something to get him more money.",A,97,"Seeing the fairness of his friend, Frank was like, nice, I'll be cool too, we both get equal amounts of money my dude."
+73,366108.0,pd3,row,B,6,I get the feeling that Richmond doesn't want Ryan to get as much money as him.,B,19,"Ryan had to choose this so he could get at least something, serves you right Richmond."
+73,464993.0,threat0,column,A,96,"William appears to have made a sacrifice on his part in hopes that Hannah will choose the option that would yield them both money, but she would get more because he's generous.",A,100,"Hannah probably would have chosen this regardless, but she's probably stoked he chose this option and then got the big bucks, but also wanted him to get some money."
+73,537315.0,threat1,row,A,72,"Emily just wants them both to get money, and this way has the highest potential for a payout.",B,35,"Oops got the names backwards, Emily is a little greedy and chose the one with the most pay out."
+73,602151.0,threat3,row,B,18,"Matthew would have actually benefited more from option A, but clearly he's not on board for both of them getting money.",B,7,"I don't blame Megan, they're probably not friends, so she choose the money and Matthew gets nothing."
+73,670946.0,coordination0,row,A,57,"It's hard to tell, I'm sure Sydney wants money so naturally they chose A.",A,72,"Again it's hard to tell, this was a mutually beneficial choice, they don't HATE each other at least."
+73,742171.0,coordination1,column,B,59,"Again it's hard to tell, both choices would probably yield the same options, so it's up to the other person to tell if they don't like each other or not.",A,0,"Lauren hates Jack, so much so she threw away 12 bucks so he gets nothing."
+73,825097.0,disjunctive3,row,B,24,I feel like Luke doesn't like Olivia considering he chose the only option that might yield nothing for both of them.,B,0,"Jeez, they both could have just gotten 12 bucks but decided they get nothing, I don't get it."
+73,906932.0,disjunctive0,column,A,79,"They're probably cool with each other, Austin clearly wants some money and doesn't have this petty desire to potentially screw them both over.",A,71,"I don't think Kate had much choice, either option was the same, and they both get money. I think they're probably friends."
+74,269404.0,coordination0,column,A,54,"Since Option A is beneficial to both Frank and Daniel, I do not believe it proves them friends or enemies. I think that if they were bitter enemies, however, Frank might have decided to take $0 just to spite Daniel's smug face.",A,71,"As with before, I don't believe choosing the mutually beneficial option proves them enemies or friends, but I feel has them closer to friendship."
+74,409369.0,coordination1,column,B,38,"With Kaylee open to choosing Option B and claiming an equal payout for both, I'm unsure. But perhaps Jacob only thought he would stop Kaylee's payout.",A,4,I have a feeling they would burn their own money if it would spite the other.
+74,589523.0,threat3,column,B,34,"Sydney seems selfish, making sure their payout will be higher.",B,0,Luke taking nothing just to split Sydney's payout is a bit of a giveaway.
+74,655227.0,threat0,column,A,93,"Kate is taking the hit no matter, so I can only think it's because of a trust in Robert.",A,100,Robert didn't let Kate down! Payouts for both.
+74,808596.0,threat1,row,A,78,Option A is simply the best option to choose in this situation since it guarantees at least $6 for William. Though if they were enemies he may have gone for Option B just to lower Matthew's overall payout.,B,35,So maybe not the best of friends. Or Matthew is just hurting for money. That sweet extra $6 is gonna stretch for the week.
+74,888955.0,pd3,column,B,0,"That's just rude of Gavin. He's my definite enemy now, too.",B,0,The best possible choice for Austin in the face of Gavin's selfish attempt at a payout grab.
+74,980995.0,pd0,column,A,81,"Logan is trusting David not to leave him with $0, so I think they're friends.",A,100,"David could have taken the extra $4 and left Logan with nothing. Instead, he took a small hit to make sure the payout was equal. We should all be more like David."
+74,1039850.0,singleControl0,column,A,71,At the least is shows that Maria doesn't see Emily as her enemy.,A,55,Doesn't really show anything since Emily's possible answer were both the same.
+74,1108857.0,singleControl1,column,B,0,Ryan is a selfish guy. He doesn't deserve the $6.,A,0,I can only guess from the previous page. And can't imagine Megan would be happy.
+74,1234404.0,disjunctive3,row,B,87,"I think Rebecca is trusting Hannah, otherwise Option A would have assured them payouts.",B,0,"I guess they really, really don't like one another. I take back the trust thought."
+74,1302275.0,disjunctive0,column,A,26,Olivia wants that $12 even if Geoff wants to be spiteful. I think she is protecting her payout.,A,49,"As his choices were the same, I'm not sure."
+75,61245.0,pd0,row,A,64,He chose an option that would pay them both more.,A,97,She went for the choice that gave them both $8.
+75,134461.0,pd3,row,B,21,He went for the option that would pay him more if she chooses A,B,28,"She gave them both an equal amount, but she would have received nothing if not."
+75,180794.0,coordination1,column,B,84,They either both get $0 or $12,A,8,They both got nothing.
+75,228634.0,coordination0,row,A,62,It is actually really hard to tell on just the first player's choice.,A,95,He chose to give them both $12.
+75,278405.0,threat3,row,B,16,One gets nothing while the other will get $6,B,5,Matt decided to give her nothing and havethe money himself.
+75,328334.0,threat0,row,A,92,They will each receive money.,A,95,Zoe gave Hannah the larger amount of money
+75,406934.0,threat1,column,B,24,One will get nothing while the other gets money,A,89,Sally made sure they both got money.
+75,449982.0,disjunctive3,row,B,50,This could either way based on Kate's decision,B,0,Neither got money even with an option for both to get $12
+75,493086.0,disjunctive0,row,A,98,No matter the choice for Logan they will both get $12,A,98,No matter Logan's choice they both made sure they would get money
+75,544992.0,singleControl0,row,A,65,Could go either way based on Maria's choice alone.,A,94,Luke made sure both got money.
+75,594922.0,singleControl1,column,B,1,"Robert is ensuring that only he receives money, it doesn't matter what Lauren chooses.",A,1,Robert gave lauren no choice on getting money
+77,56447.0,coordination1,row,A,100,he was even with the money,B,100,all or nothing for friends 
+77,130070.0,coordination0,row,A,100,all or nothing for friends ,A,100,all or nothing for friends 
+77,164422.0,disjunctive0,row,A,100,all or nothing for friends ,A,100,all or nothing for friends 
+77,202934.0,disjunctive3,column,B,2,sellfish,B,100,all or nothing for friends 
+77,245878.0,pd0,row,A,99,all or nothing for friends ,A,100,all or nothing for friends 
+77,285149.0,pd3,column,B,0,slelfish,B,100,all or nothing for friends 
+77,307341.0,singleControl0,column,A,99,all or nothing for friends ,A,100,all or nothing for friends 
+77,331885.0,singleControl1,row,A,100,all or nothing for friends ,B,1,not willing to share
+77,396373.0,threat1,column,B,24,not willing to share,A,47,they got something
+77,509613.0,threat0,column,A,100,all or nothing for friends ,A,84,they got something
+77,542725.0,threat3,row,B,1,not willing to share,B,6,tit for tat
+78,109002.0,disjunctive3,column,B,49,"difficult to say. all options but 1, will give each of the $12. The last option, no one would choose because it would give both $0",B,0,"Austin chose for both to get $0, so he can't be friends with her."
+78,177601.0,disjunctive0,column,A,54,"Either option that Maria would chose would give them both $12, so it's hard to say.",A,77,both options would give both players $12.  I would say they were probably most likely friends.
+78,272638.0,pd3,row,B,31,One option would give Gavin $0 or lower both of them a much lower option of $4,B,43,Gavin chose for them to both receive $4 rather than Hannah get the higher amount.
+78,369671.0,pd0,row,A,71,Most likely friends Jacob and Logan would either receive the same amount or Jacob himself would receive $0,A,100,"Rather than choosing the higher amount for himself, Logan chose the smaller amount that they would both receive $8"
+78,455313.0,coordination1,column,B,51,"any of the options could result in him either getting $0 or $12, so it's hard to say",A,0,"Rather than them both get $12, Rebecca chose for them both to get $0, definitely enemies."
+78,531934.0,coordination0,column,A,50,Hard to say since either option would result in him getting $12 or $0,A,53,Hard to say again. Richmond could have chose A just because he wanted to receive the $12.
+78,606504.0,threat1,column,B,35,Zoe chose options that would result in her receiving a higher amount no matter what.,A,49,"Robert could have chosen what he did just so he would  not have gotten $0, so it's hard to tell."
+78,662129.0,threat0,column,A,100,"No matter which Daniel chooses, Kate will get a smaller amount or nothing.",A,52,"Hard to say, Daniel could have just wanted the higher amount."
+78,732950.0,threat3,column,B,40,"No matter which Sally chooses, Frank will get the larger amount.",B,34,"Sally chose to receive $0, rather than getting $6 and Frank getting a higher amount."
+78,820680.0,singleControl1,column,B,0,Sydney would receive $0 no matter which option she chooses.,A,39,She would have received $0 and David $6 no matter what option she chose.
+78,853562.0,singleControl0,column,A,81,either option would give them both $6,A,50,either option would give them both $6
+80,80844.0,disjunctive0,row,A,100,Gerald wants both players to definitely get a payout.,A,50,Both choices are the same so it's impossible to know what the relationship is.
+80,165568.0,disjunctive3,column,B,1,"She might want Daniel to get 0. Frankly I don't see why anyone would pick that choice though,",B,0,Daniel doesn't want Olivia to get any money and is willing to hurt himself in the process.
+80,218897.0,coordination1,column,B,50,Both choices are the same so it's impossible to make a distinction.,A,0,Gavin would prefer Kate getting nothing even if it means he gets nothing too.
+80,312833.0,coordination0,row,A,49,Both choices are the same so I can't make a distinction,A,47,"Luke could want Emily to get money, or he could just want to get paid himself. "
+80,364725.0,singleControl1,row,A,99,He trusts that Matt will pick 6/6.,B,0,It doesn't hurt Matt to give Frank the 6 dollars.
+80,396442.0,singleControl0,column,A,50,Zoe wants the money.,A,50,Both choices are the same so who knows?
+80,465670.0,threat1,row,A,58,Austin doesn't want to give Ryan nothing or get nothing himself.,B,34,Ryan took the bigger portion. A good friend might have given his friend the larger share.
+80,518717.0,threat0,column,A,100,Geoff wants to give his friend the largest amount,A,100,Kaylee takes the larger amount and makes sure Geoff gets something
+80,554799.0,threat3,row,B,0,The other choices were more money,B,0,Sally is mad Jacob didn't take the larger amounts
+80,615048.0,pd0,row,A,100,Rebecca wants to give William a large amount of money and hopes he'll pick 8/8 so she gets money too,A,100,They both get a large payout and neither is hurt
+80,686827.0,pd3,row,B,23,Megan wants to make sure she gets a payout and will hurt Matthew for the sure money,B,11,Matthew wants the money for himself
+83,48551.0,threat0,column,A,42,I think they have some issues against each other and it's something that I am confident about,A,77,I'm sure they are friends and they have some love towards each other
+83,66030.0,threat1,row,A,37,They are rivaling each other ,B,11,They are trying to one up each other with their choices
+83,96017.0,threat3,column,B,93,both trying to help each other out and their choices seem friendly,B,75,I think they are more than likely friends with the choices made
+83,125557.0,disjunctive3,column,B,11,I feel they have some connection towards each other but it's kinda hostile. ,B,70,They probably have some issues but more friends
+83,148237.0,disjunctive0,row,A,91,they seem to have a connection with each other,A,86,I think the choices line up with my decision
+83,167258.0,pd3,column,B,29,more-so a educated guess on what I believe,B,15,They wanted to out do one another and make a difference 
+83,184299.0,pd0,column,A,83,It was to be fair to the others,A,29,They wanted to get the best for themselves
+83,229316.0,singleControl0,column,A,96,I think this is a good choice and they seem to be wanting to help each other out.,A,84,it seems they want to help one another out
+83,269453.0,singleControl1,row,A,32,they tried to make it better for themselves,B,84,they seem to have some love towards each other
+83,298919.0,coordination0,row,A,31,I think they wanted to change up how they did their business,A,71,it appears they wanted to make a difference in things
+83,319842.0,coordination1,column,B,10,they appear to be competing against each other,A,21,they both tried to cancel each other out
+85,107414.0,pd0,column,A,93,Megan could've chosen 12 bucks for herself but chose to split evenly.,A,97,Maria could've chosen 12 bucks for herself but chose to split evenly.
+85,203734.0,pd3,column,B,14,Frank selected all the money for himself.  He didn't care about Zoe at all.,B,54,Zoe chose to split evenly.  She could be friends but might just want some money.
+85,271141.0,coordination1,row,A,87,Robert chose to split evenly.  Likely friends.,B,6,William chose for all to get nothing.  He likely hates Robert and himself too.
+85,341405.0,coordination0,row,A,72,He chose to split evenly.  Maybe friends.,A,92,Probably friends as they split evenly and did the same thing.
+85,386797.0,disjunctive0,row,A,53,Hard to say as all choices except one are the same.,A,57,Perhaps friends but no proof.  They chose the only good one.
+85,439213.0,disjunctive3,row,B,10,Kate likely does not like him OR herself.,B,3,Most likely hate each other and don't want anyone to get anything.
+85,483868.0,singleControl0,column,A,82,Probably friends as he split rather than taking all.,A,58,Hard to say as Hannah didn't have many options.  Maybe.
+85,578333.0,singleControl1,column,B,25,She probably doesn't like David as she took it all for herself.,A,43,Hard to say.  No good options for him.
+85,633197.0,threat0,column,A,89,Must be good friends as he chose something really good for him.,A,55,"I don't know.  He may have just wanted more money, or could be friends too."
+85,761947.0,threat1,column,B,61,Possibly friends.  Or she wants the high amount for herself.,A,63,Could be friends or maybe he just wanted more money.
+85,822404.0,threat3,column,B,64,Could be friends or maybe just wanted the most money.,B,13,"Probably not friends as she wanted to reduce her earnings, even if nothing for herself.  Spiteful."
+86,264657.0,threat1,column,B,51,Richmond chose the best payout for himself. It really did not matter that Megan got less than him. He was only looking out for his best interest,A,49,She too is only looking out for her own benefit. 
+86,459892.0,threat3,row,B,7,William could have chosen a higher amount but instead made the choice to deny Zoe any money.,B,6,Zoe wanted to deny William any money while choosing to only get half of what she could have.
+86,633210.0,threat0,row,A,50,Geoff was looking for the most money for himself while letting Luke get whatever.,A,85,Luke preferred Geoff over himself by letting him have the larger amount
+86,754356.0,singleControl1,column,B,11,Austin wanted to deprive Gerald any of the money,A,85,Gerald let Austin have the money while he took none.
+86,916437.0,singleControl0,row,A,50,Both options are basically the same for Emily,A,95,Kaylee followed up with a choice that benefited both of them the same.
+86,986801.0,coordination0,row,A,81,Jacob chose the one that gave both of them the most,A,98,They looked out for each others best interest
+86,1164161.0,coordination1,column,B,51,Sydney put forth the best opportunity for the two of them.,A,50,It is hard to tell. Maybe Gavin doesn't understand or he could dislike Sydney so much he is willing to lose money.
+86,1301032.0,disjunctive0,row,A,88,Maria chose for both of them to get the most,A,97,They both looked out for each other
+86,1436522.0,disjunctive3,column,B,51,Jack is given the final say to Robert who could choose to give both of them nothing so I am not sure.,B,3,Robert must dislike Jack in order to deprive himself of the $12
+86,1587808.0,pd3,column,B,28,Lauren doesn't care about whether Logan gets money she just wants the most,B,27,Logan stopped Lauren from shutting him out and made her get what he got
+86,1693687.0,pd0,column,A,75,Olivia is hoping Matthew will choose A as well so they both have the same,A,97,Matthew chose to not let Olivia only have $0 but to share the same amount
+87,117050.0,pd3,row,B,11,i dont think they are friends because he is playing it safe,B,69,the might be friends but it would have been smarter for both of them to choose A if they really were
+87,168088.0,pd0,row,A,72,looks like they might be free looking to make the most money equally,A,100,they both looked out for each other to maximize their earning potential
+87,241958.0,disjunctive3,row,B,50,there is no clear way to tell from their decision,B,0,the rather end up with nothing then to maximize each others earning potential
+87,287381.0,disjunctive0,row,A,82,look like the want to make the most money no matter what,A,94,they wanted to make sure the both got the most money they could
+87,370173.0,threat1,column,B,20,"wants to make sure they get the most, seems selfish",A,49,the other player would rather get $6 gthen nothing doesnt prove they are friends though
+87,434760.0,threat3,row,B,0,friends would have went with the safer beneficial option which is A,B,0,looked out for themselves
+87,498152.0,threat0,row,A,100,wanted to maximize earning potential for partner,A,100,he made sure his friend walked away with more money for being unselfish in the first part
+87,557380.0,singleControl0,column,A,100,the other choice would have left the other player with no gains,A,100,they made sure they both walked away with equal money
+87,615069.0,singleControl1,row,A,50,no way to really tell from the stand point,B,0,his other choice would have led to an equal earning for both
+87,722972.0,coordination1,row,A,50,no way to tell both options look the same from the stand point,B,0,rather have them both walk away with nothing then with equal money
+87,754374.0,coordination0,row,A,50,no way to tell from this stand point,A,100,went with the option that earned them both the most money
+88,94431.0,threat0,column,A,0,"If Gavin chose B, he has a higher payout. But, he chose A in which rebecca has a higher payout",A,51,"Rebecca chose the higher payout; however, this gave gavin 6 $"
+88,132817.0,threat3,column,B,20,Maria chose her higher payout probability. ,B,0,"Maria could have chosen 12$ payout, but she purposely gave hannah $0"
+88,205234.0,threat1,row,A,50,"I am not sure yet, but b was not a good option for both. A has a higher payout for daniel, but it is the best option",B,50,"Matt chose based on his higher payout. They could be friends, but matt based on his preference."
+88,253526.0,singleControl1,column,B,0,Ryan chose to not give logan any money,A,50,Logan would have had the same result either way
+88,294991.0,singleControl0,row,A,50,"We dont know yet, cuz A and B is the same",A,71,"Both a win/win. But, it is the same amount of money so I cannot exactly tell"
+88,348229.0,pd3,column,B,39,"If they were friends 8/8 would have bee better, but Zoe chose B, so she is probably yearning for a higher payout",B,50,Jacob chose the best option for him. the other one would have gave him no money
+88,398191.0,pd0,column,A,76,Kaylee chose an option that is more beneficial to emily,A,82,They both had an equal payout. Emily could have chosen B for her advantage but she chose A
+88,433610.0,coordination0,column,A,50,"can tell yet, because B has similar options",A,48,"That is the best choice for both, so I cannot tell "
+88,477560.0,coordination1,column,B,50,Same option for both A and B. Cannot tell if friends/enemies,A,0,Richmond sacraficed his winnings to make sure frank got nothing
+88,556106.0,disjunctive0,column,A,44,David made sure to choose the option that could guarantee himself 12 ,A,50,"Gerald had the same option, so it did not matter."
+88,596004.0,disjunctive3,column,B,69,William risked getting 0 even though he could have been guaranteed 12,B,25,Lauren purposely chose 0 winnings instead of gaining 12
+89,207728.0,coordination0,column,A,50,The choice does not give enough information to make the choice they either both get equal or get nothing.,A,55,"It is the same they both get something out of the exchange, so could be friends or enemies."
+89,328279.0,coordination1,column,B,6,Austin is willing to give up getting something so that Daniel will not get anything.,A,12,They chose to loose out so the other person would not get anything.
+89,483983.0,singleControl1,column,B,24,Megan is only playing for herself and not Geoff.,A,57,Geoff is sacrificing for Megan to at least get something.
+89,562438.0,singleControl0,column,A,74,Kaylee is going for an equal pay out for both something you would do for a friend.,A,89,They worked together so that both of them could gain something.
+89,635935.0,disjunctive0,column,A,79,Matthew is working for them both to receive something.,A,86,they were working together to get something
+89,802127.0,disjunctive3,column,B,70,he shows the thought of working together.,B,43,She chose for neither to receive anything in the game
+89,897917.0,threat3,row,B,97,Luke chose for Rebecca to gain something sacrificing him getting anything.,B,47,She chose to go ahead and pick what would give her something leaving him without
+89,994526.0,threat0,column,A,77,Zoe chooses to make sure Gerald will get more.,A,91,Gerald chose to make sure that at least zoe would gain something.
+89,1111678.0,threat1,row,A,79,David is making the choice that both will will gain something even if one gains more.,B,59,Robert was looking out for himself
+89,1249991.0,pd3,column,B,34,Lauren set it up so that no matter what emily chooses she gets something,B,49,emily had no real choice in it she would either get nothing or give them equal amounts
+89,1330078.0,pd0,row,A,91,William is trusting enough that he believes olivia will  pick one good for both of them,A,95,Olivia did not just think of herself and chose to give equally
+91,163961.0,threat3,row,B,23,Sydney chose the option that would not allow Robert to win more,B,0,Robert chose the option that would result with Sydney not winning anything
+91,220210.0,threat1,column,B,73,Emily chose the option that would give them more ,A,77,Jack chose the option that would give Emily more
+91,258228.0,threat0,row,A,74,She chose the option that would give them more,A,57,Luke chose the option that would give him more
+91,308329.0,singleControl1,column,B,13,She chose the option that would not give anything to Kaylee,A,16,Her decision would not change the outcome
+91,354143.0,singleControl0,column,A,76,She chose the option better for David,A,100,He chose the option good for both of them
+91,389999.0,coordination1,row,A,77,She chose the option that would be beneficial for both,B,12,He chose them both not to win anything
+91,422973.0,coordination0,column,A,76,She chose the option both could win,A,96,He chose the same option
+91,449727.0,pd0,column,A,93,She chose the option both could win,A,100,He chose the option both would win
+91,492870.0,pd3,row,B,22,He chose the option either he wins more or both wins less,B,34,She chose the option both would win some
+91,543997.0,disjunctive3,column,B,50,Not sure as this option can be either good or bad,B,0,He chose both to get 0$
+91,570383.0,disjunctive0,column,A,89,He chose the option that both would win,A,72,He chose the option both would win
+93,176893.0,singleControl1,row,A,76,He's willing to possibly get $0 instead of $6.,B,8,She wanted him to get $0 instead of $6 and it being equal.
+93,216068.0,singleControl0,row,A,77,He's willing to take a chance on getting nothing.,A,100,"They both get $6, which is equal. NObody loses out so he must think he's a friend."
+93,260729.0,threat0,row,A,84,She wants to get the larger payout for both of them.,A,95,He wants his friend to get more.
+93,307512.0,threat1,column,B,83,He's willing to get less so his friend can get more.,A,89,She wants her friend to earn more than her.
+93,358129.0,threat3,row,B,65,He's willing to risk getting zero.,B,7,She wanted to receive more.
+93,383507.0,disjunctive0,row,A,100,He wants things to be equal.,A,84,He wants things to be equal.
+93,414223.0,disjunctive3,column,B,16,She's willing to lose everything so she can lose too.,B,0,They both want each other to lose out.
+93,444795.0,pd0,row,A,85,He wants his friend to earn more.,A,100,He wanted it to be equal between them.
+93,486591.0,pd3,row,B,8,She wanted to earn more.,B,39,"He wanted it to be equal and not lose out, even if she (Hannah) got some money."
+93,573527.0,coordination1,row,A,44,It's too hard to say. It could go either way.,B,0,He doesn't want either of them getting any money.
+93,664541.0,coordination0,row,A,64,He could go either way. It's too hard to tell.,A,100,She wants both of them to earn an equal amount.
+94,163558.0,coordination1,row,A,74,"Sally is playing more cooperatively, though that doesn't necessarily mean that they're friends. She could just be nice. ",B,4,"Matt's actions were spiteful. Choosing A would have given them both the maximum amount of money, though Matt chose B in order to ensure neither received anything. "
+94,230760.0,coordination0,column,A,62,"It is difficult to determine, though his choice would be the most pro-social. Still, there's really no reason to chose option B unless you wanted to be spiteful. ",A,77,Both chose the pro-social option. Though it was really the only logical choice. 
+94,374546.0,threat0,row,A,76,Maria's choice of A ensures that her counterpart receives the most possible money. Though it's also the best choice for her as well. ,A,92,"Both players seemed to have the other's interests in mind, or at the very least weren't actively spiteful. "
+94,438758.0,threat3,row,B,8,There's no reason to choose B other than to make sure the other player receives less money.,B,0,There was no reason for choosing B other than to make sure the other player received less money. Both players did this. 
+94,507480.0,threat1,row,A,76,A makes the most sense. It ensures that B has the ultimate choice in how money is divided. ,B,54,"Emily's choice gave Rebecca the power, though Rebecca chose the more selfish option. "
+94,617556.0,singleControl0,column,A,87,Megan would make the same amount regardless. She chose the more pro-social of the options. ,A,89,The two picked the most mutually beneficial options. 
+94,717526.0,singleControl1,column,B,0,Kate's choice is just spiteful and ensured her partner would get nothing.,A,0,What Jacob picked made no difference. 
+94,829210.0,pd3,column,B,21,Frank chose the most self-serving option.,B,0,"Both chose the most self-serving, spiteful choice. "
+94,875834.0,pd0,column,A,100,David chose the most mutually beneficial option. ,A,100,Both chose the option that would be mutually beneficial. 
+94,973266.0,disjunctive3,row,B,15,"I have no idea why Jack would chose B, or why either of them would. Unless they were so full of hate that they would hope that their partner would also pick B. ",B,0,Both were just spiteful.
+94,1002860.0,disjunctive0,row,A,80,A is the mutually beneficial choice. ,A,98,Its the choice where both make the most money.
+95,227368.0,coordination0,row,A,100,Emily is choosing for both her a Kate to receive the same amount of money. ,A,100,Kate choose the same as Emily making it more likely they are friends. 
+95,343907.0,coordination1,row,A,75,Zoe and Jacob could be friends but Zoe might be just making the best choice for himself. Hard to tell. ,B,0,Jacob could of get them both paid but instead chose for them to both receive nothing. 
+95,449892.0,pd0,column,A,76,Richmond could of chose B and got more money but decided to get the other person money also. ,A,100,The both decided to get the other money rather then get more and leave the other with nothing. 
+95,517742.0,pd3,column,B,0,Luke wants all the money for him. ,B,70,Robert is more friendly then Luke deciding to help then both get a little money. 
+95,633997.0,threat1,column,B,71,Megan is not being too greedy. ,A,71,They got what Megan originally wanted. 
+95,741365.0,threat0,column,A,61,Seems like Maria is trying to be fair. ,A,71,They both chose the same option. 
+95,854729.0,threat3,row,B,32,Ryan seems to be a little selfish and not care about the other person. ,B,74,Maybe I was wrong about Ryan. I think they are friends since he took nothing to Frank could get some money. 
+95,913296.0,disjunctive0,column,A,96,Olivia wants to share the money. ,A,100,Definitely fiends they seemed to be working together. 
+95,956169.0,disjunctive3,column,B,1,Daniel seems to care more about himself. ,B,3,Neither received anything. 
+95,1085567.0,singleControl1,column,B,15,Matthew does not want to give any money to Sally. ,A,0,Sally did not receive any money like Matthew had picked. 
+95,1126297.0,singleControl0,column,A,84,Willing to share the money. ,A,94,They both choose to split the money. 
+96,67170.0,coordination0,column,A,49,both options are the same and leave the real decision to sally,A,64,you're more likely to be unselfish with a friend i would think
+96,114947.0,coordination1,row,A,50,both are basically the same,B,5,why would anyone who liked each other do that?
+96,173176.0,threat3,column,B,45,megan was being kind of selfish,B,16,friends would try and maximize winnings
+96,215969.0,threat1,row,A,50,anyone would want to make more money,B,37,selfish move if they're friends
+96,274067.0,threat0,row,A,50,its the safest bet regardless,A,98,sydney was very giving
+96,329875.0,singleControl1,column,B,9,made it to where jacob got nothing ,A,7,didn't change anything
+96,365843.0,singleControl0,row,A,50,both options are the same,A,92,definitely wouldn't give the person money if you ahted them
+96,428844.0,pd0,row,A,86,she would be taking a risk of getting nothing if they were enemies,A,96,could have gotten more while em got nothing with option b
+96,476235.0,pd3,column,B,28,opted for more money for themselves than david,B,46,could have just wanted some money
+96,556861.0,disjunctive3,row,B,43,"The only reason you would do this is if you trusted them completely as a friend, or you wanted them to not get any money",B,2,just an odd choice unless you just couldn't stand the thought of the other person getting money
+96,601192.0,disjunctive0,column,A,57,anyone would pick this almost no matter the relationsihp,A,54,they could just be sensible people
+98,55732.0,singleControl1,column,B,9,It was based on ther choice made by maria,A,93,It was based on ther choice made by Zoe
+98,96708.0,singleControl0,column,A,88,It was based on ther choice made by Laura,A,88,It was based on ther choice made by lauren
+98,144179.0,disjunctive3,row,B,95,It was based on ther choice made by Richmond,B,12,It was based on the choice made by the candidate 
+98,173526.0,disjunctive0,column,A,92,It was based on the choice made by the candidate ,A,97,It was based on the choice made by the candidate 
+98,205741.0,threat3,column,B,52,It was based on the choice made by the candidate ,B,13,It was based on the choice made by the candidate  
+98,226164.0,threat0,column,A,90,It was based on the choice made by the candidate ,A,73,It was based on the choice made by the candidate 
+98,254317.0,threat1,row,A,99,It was based on the choice made by the candidate ,B,34,It was based on the choice made by the candidate 
+98,408196.0,coordination0,column,A,96,It was based on the choice made by the candidate ,A,99,It was based on the choice made by the candidate 
+98,433309.0,coordination1,row,A,96,It was based on the choice made by the candidate ,B,44,It was based on the choice made by the candidate 
+98,467125.0,pd0,row,A,97,It was based on the choice made by the candidate ,A,94,It was based on the choice made by the candidate 
+98,493029.0,pd3,row,B,83,It was based on the choice made by the candidate ,B,76,It was based on the choice made by the candidate 
+99,164350.0,coordination0,row,A,100,They are friends because they both get a even payout of 12 and 0. ,A,100,The are friends because each person received 12. 
+99,286029.0,coordination1,row,A,100,Both players are friends because it will be a even payout across the board for both. ,B,100,They are friends because no one received any money. 
+99,516949.0,threat3,row,B,50,I'm not quite sure if they are enemies or friends it's 50/50 but Zoey took the 6 and left Mathew with 0. ,B,51,I going to say 50/50 because Mathew also received 6 as well both ended up with money in the end.  
+99,602853.0,threat0,row,A,11,Maria receives the higher amount. ,A,38,I believe they are enemies because Austin didn't know what Maria picked first. 
+99,664991.0,threat1,column,B,26,Luke gets the higher amount and leaves frank with 6. ,A,30,It is hard to say if they are enemies for friends both received a good amount. 
+99,719837.0,singleControl1,column,B,0,Lauren left Sally with zero. ,A,0,Lauren left Sally with 0. 
+99,764861.0,singleControl0,column,A,100,Both friends will get a even payout. ,A,100,They both get a even payout. 
+99,813093.0,disjunctive0,row,A,100,They are friends because both will receive 12. ,A,100,They are good friends and both will receive the higher amount. 
+99,872390.0,disjunctive3,row,B,100,Matt and Gerald are friends because he makes sure his friend gets 12 as well. ,B,100,They both end up getting the same amount. 
+99,959325.0,pd3,column,B,0,Kate takes the higher amount of 12 and leaves Geoff with nothing. ,B,0,I still say they are enemies because Geoff didn't know Kate took the 12 and left him with nothing. 
+99,1021957.0,pd0,row,A,100,They are friends because Gavin made sure they both will get a even amount. ,A,100,Definitely friends because Rebecca makes sure they both received the same amount. 
+101,106558.0,singleControl0,column,A,84,"The rewards were equal, which seems friendly.",A,96,The results are equal for both players. It appears fair.
+101,239612.0,singleControl1,column,B,7,"Ryan gains and Austin will not gain, but lose.",A,21,"Ryan is not friendly, but Austin is trying to be fair and friendly."
+101,359371.0,pd3,column,B,7,Frank is trying to gain at Robert's expense.,B,7,Robert did as well as he could after Frank's choice. Not a friendly feel.
+101,489916.0,pd0,row,A,10,"Jack chooses the best for himself, with no concern for Geoff.",A,39,Geoff chooses the fair choice for both. He seems more friendly than Jack.
+101,657596.0,disjunctive3,row,B,66,Sally makes a poor choice that is dependent on weather Matthew is fair. She is being fair.,B,6,Matthew's choice is bad for both. He is harming both himself and her. Most unfriendly.
+101,731637.0,disjunctive0,column,A,78,He chooses a fair choice for both.,A,82,Both make fair choices. Friendly.
+101,870301.0,threat0,row,A,59,Zoe's choice is best for her and possibly better for Sydney. But both can win.,A,98,Sydney selects a choice that benefits Zoe more than himself--very friendly.
+101,1039692.0,threat1,row,A,60,Her choice is best for her and perhaps better for him. Seems friendly so far.,B,30,Luke's choice benefits him more than her--not as friendly.
+101,1182252.0,threat3,column,B,45,Olivia's choice is beneficial to her and possibly not to Maria.,B,42,Maria is acting more friendly than Olivia.
+101,1290461.0,coordination1,row,A,61,He makes his only reasonable choice. He is now dependent on her. ,B,3,She chooses to deny both gain. Very unfriendly.
+101,1433605.0,coordination0,row,A,59,David make the only reasonable choice for him. He depends on William to be fair. And a friend.,A,99,William is fair and both gain. They are at least not clear enemies. But probably friends
+102,82245.0,singleControl0,column,A,50,looks like daniel just chose the same option,A,89,they got the same amount
+102,142804.0,singleControl1,row,A,90,they got the same amount,B,33,"he got money, she didnt"
+102,202325.0,pd0,column,A,78,they got the same amount,A,76,they got the same amount
+102,245988.0,pd3,row,B,28,"he got money, she didnt",B,100,they go the same amount
+102,283555.0,disjunctive0,column,A,98,they got the same amount,A,98,they got the same amount
+102,314953.0,disjunctive3,column,B,98,they got the same amount,B,72,they got the same amount
+102,342093.0,coordination0,row,A,94,they both got the same,A,100,they both got the same amount
+102,377938.0,coordination1,column,B,43,he didnt want the other to get money,A,40,he didnt want the other to get money
+102,405576.0,threat3,column,B,37,he got more money,B,38,he got more money
+102,484786.0,threat1,row,A,36,he got more money,B,82,they got the same amount
+102,524216.0,threat0,column,A,24,he got more money,A,55,he received less money
