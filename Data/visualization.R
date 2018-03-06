@@ -75,8 +75,6 @@ p.scatter <- ggplot(data = d.all,
   scale_color_brewer(palette = "Dark2",
                      name = "Phase",
                      labels = c("Judgment 1", "Judgment 2")) +
-  # geom_linerange(aes(ymin=rating.y-se, ymax=rating.y+se, width=0.02),
-  #                color = "black") +
   labs(x = "Model Predictions",
        y = "Experiment Response Means",
        color = "Judgment")
@@ -136,6 +134,12 @@ p2.model <- p2.responses %+% d2.model +
 
 # print both plots in a nice layout
 # grid.arrange(p2, p2.m, ncol = 2)
+
+# -------------------------- Raw Data --------------------------
+p.dot <- ggplot(d.responses, aes(x=game, y=rating)) +
+  geom_boxplot() + facet_wrap(firstPlayer ~ phase)
+
+print(p.dot)
 
 # -------------------------- Export PNGs --------------------------
 png(filename = "scatter.png"
