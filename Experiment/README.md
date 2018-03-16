@@ -1,7 +1,5 @@
 # Experiment 2 Materials
 
-## Important Files and Folders
-These are the basis of the experiment.
 - [static/js/task.js](static/js/task.js)
 - [templates/stage.html](templates/stage.html)
 - [data_to_csv.py](data_to_csv.py)
