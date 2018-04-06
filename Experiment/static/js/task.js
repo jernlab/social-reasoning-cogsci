@@ -46,9 +46,9 @@ var returnInstructions = [ // add as a list as many pages as you like
 var InteractionsExperiment = function() {
     debug = 0;
 
-    var wordon, // time trial is presented
+    var wordon, // time experiment starts
 	listening = false;
-    var rt;
+    var rt; // length of current trial
 
     var availableNames = _.shuffle(['Jacob', 'David', 'Luke', 'Rebecca', 'Matt', 'Jack', 'Frank', 'Geoff', 'Robert', 'Emily', 'Zoe', 'Maria', 'Austin', 'Hannah', "Matthew", 'Gavin', 'William', "Logan", 'Ryan', 'Sydney', 'Lauren', 'Kate', 'Megan', 'Kaylee', 'Olivia', 'Daniel', 'Richmond', 'Gerald', 'Sally']);
 
