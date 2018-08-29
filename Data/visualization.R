@@ -48,23 +48,23 @@ d.all <- merge(d.model, d.responses.summary,
 # get sample sizes for each group
 d.all$count <- count(d.responses, c("game", "firstPlayer", "phase"))$freq
 
-# calculate standard errors
-d.all$se <- (d.all$sd * 1.96) / sqrt(d.all$count)
+# calculate confidence interval
+d.all$ci <- (d.all$sd * 1.96) / sqrt(d.all$count)
 
-# make the scatterplot with error bars
+# make the scatterplot with confidence interval bars
 # correlation coefficient not shown
-p.scatter <- ggplot(data = d.all,
-            aes(x = rating.x,
-                y = rating.y,
+p.scatter.rel <- ggplot(data = d.all,
+            aes(x = rel_model,
+                y = rating,
                 color = phase)) +
   # geom_text(x = 0.10, y = 95,
   #           aes(label = paste("paste(italic(R) ==",
-  #                             cor(d.all$rating.y, d.all$rating.x), ")",
+  #                             cor(d.all$rating, d.all$rel_model), ")",
   #                             sep=" ")),
   #           parse = TRUE,
   #           color = "black",
   #           size = 5, hjust = 0) +
-  geom_errorbar(aes(ymin=rating.y-se, ymax=rating.y+se), width = 0.02) +
+  geom_errorbar(aes(ymin=rating-ci, ymax=rating+ci), width = 0.02) +
   geom_point(size = 3) +
   scale_x_continuous(limits = c(-0.01,1.01),
                      breaks = seq(0,1,by=0.20)) +
@@ -75,11 +75,32 @@ p.scatter <- ggplot(data = d.all,
   scale_color_brewer(palette = "Dark2",
                      name = "Phase",
                      labels = c("Judgment 1", "Judgment 2")) +
-  labs(x = "Model Predictions",
+  labs(x = "Relationship Model Predictions",
        y = "Experiment Response Means",
        color = "Judgment")
 
-# print(p.scatter)
+# print(p.scatter.rel)
+
+p.scatter.param <- ggplot(data = d.all,
+                          aes(x = param_model,
+                              y = rating,
+                              color = phase)) +
+  geom_errorbar(aes(ymin=rating-ci, ymax=rating+ci), width = 2) +
+  geom_point(size = 3) +
+  scale_x_continuous(limits = c(0,100),
+                     breaks = seq(0,100,by=20)) +
+  scale_y_continuous(limits = c(0,100),
+                     breaks = seq(0,100,by=20)) +
+  theme_light() +
+  theme(legend.position = "bottom", strip.text.x = element_text(size = 14)) +
+  scale_color_brewer(palette = "Dark2",
+                     name = "Phase",
+                     labels = c("Judgment 1", "Judgment 2")) +
+  labs(x = "Parameter Model Predictions",
+       y = "Experiment Response Means",
+       color = "Judgment")
+
+# print(p.scatter.param)
 
 # --------------------------- Dumbbells ---------------------------
 # load just responses data and change format
@@ -137,17 +158,29 @@ p2.model <- p2.responses %+% d2.model +
 
 # -------------------------- Raw Data --------------------------
 p.dot <- ggplot(d.responses, aes(x=game, y=rating)) +
-  geom_boxplot() + facet_wrap(firstPlayer ~ phase)
+  geom_dotplot(binaxis = "y", stackdir = "center", dotsize = 0.2) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(firstPlayer ~ phase)
 
-print(p.dot)
+# make row and column plots overlap? show phase movement somehow?
+
+# print(p.dot)
 
 # -------------------------- Export PNGs --------------------------
-png(filename = "scatter.png"
+png(filename = "rel_scatter.png"
     , width = 7.5
     , height = 7.5
     , units = "in"
     , res = 1200)
-p.scatter
+p.scatter.rel
+dev.off()
+
+png(filename = "param_scatter.png"
+    , width = 7.5
+    , height = 7.5
+    , units = "in"
+    , res = 1200)
+p.scatter.param
 dev.off()
 
 png(filename = "dumbbells.png"
