@@ -8,7 +8,7 @@ The model and experiment were based on the process of playing a simple [normal-f
 choice.
 
 ## Model
-The [current model](Model/prediction_exp2.ipynb) defines the Friend and Enemy relationships in terms of combinations of three parameters. We quantified the assumptions above to generate predictions for each condition.
+The [current model](Model/Relationship_Model.ipynb) defines the Friend and Enemy relationships in terms of combinations of three parameters. We quantified the assumptions above to generate predictions for each condition.
 
 ## Experiment
 Each of the 81 subjects were shown a series of 11 randomized game-and-outcome conditions and made two judgments per condition:
